@@ -1,0 +1,71 @@
+{
+  "passed": true,
+  "portable_detail_generation": true,
+  "standalone_finish_idempotence": true,
+  "native": {
+    "objects": 287,
+    "solids": 290,
+    "volume_mm3": 10045657.470313473,
+    "bounds": [
+      -153.4,
+      -205.0,
+      0.0,
+      153.4,
+      217.0,
+      520.0
+    ],
+    "all_valid": true
+  },
+  "portable_first": {
+    "objects": 287,
+    "solids": 290,
+    "volume_mm3": 10045657.470313473,
+    "bounds": [
+      -153.4,
+      -205.0,
+      0.0,
+      153.4,
+      217.0,
+      520.0
+    ],
+    "all_valid": true
+  },
+  "portable_after_second_finish": {
+    "objects": 287,
+    "solids": 290,
+    "volume_mm3": 10045657.470313473,
+    "bounds": [
+      -153.4,
+      -205.0,
+      0.0,
+      153.4,
+      217.0,
+      520.0
+    ],
+    "all_valid": true
+  },
+  "volume_tolerance_mm3": 0.001,
+  "bounds_tolerance_mm": 0.001,
+  "open_270_degree_service_path_rebuild": [
+    {
+      "file": "Sheet Metal PC Case.FCStd",
+      "open_service_loops": 4,
+      "lengths_mm": [
+        235.61944901923448,
+        235.61944901923448,
+        235.61944901923448,
+        235.61944901923448
+      ]
+    },
+    {
+      "file": "Sheet Metal PC Case.FCStd",
+      "open_service_loops": 4,
+      "lengths_mm": [
+        235.61944901923448,
+        235.61944901923448,
+        235.61944901923448,
+        235.61944901923448
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+[
+  {
+    "topic": "ATX motherboard and rear I/O",
+    "source": "Intel ATX v2.2, Figures2\u20134",
+    "url": "https://www.synthmind.com/developer_specs_atx2_2.pdf",
+    "qualification": "CorrectedA Z141.51; native12hole pattern checked. Third-party mirror of primary specification."
+  },
+  {
+    "topic": "microATX",
+    "source": "Intel microATX v1.2",
+    "url": "https://xdevs.com/doc/_PC_HW/Form_factors/matxspe1.2.pdf",
+    "qualification": "SharedA-coordinate table; actual board may omit positions."
+  },
+  {
+    "topic": "MiniITX",
+    "source": "Intel Mini-ITX Addendum v1.1",
+    "url": "https://content.instructables.com/ORIG/FJD/TETT/GU59XBKK/FJDTETTGU59XBKK.pdf",
+    "qualification": "Primary download unavailable in prior research; C/F/H/J corroborated by Protocase. Obtain selected-board drawing."
+  },
+  {
+    "topic": "PCI bracket",
+    "source": "PCI Local Bus3.0 Figure5-8",
+    "url": "https://e2e.ti.com/cfs-file.ashx/__key/communityserver-discussions-components-files/639/1016.PCI.Local.Bus.Specification.Revision.3.0.pdf",
+    "qualification": "Legacy full-height bracket reference, not universal modernGPU bracket validation."
+  },
+  {
+    "topic": "PCI chassis implementation",
+    "source": "Protocase motherboard enclosure guide",
+    "url": "https://www.protocase.com/resources/how-to-design-for-motherboards/How-to-Design-Enclosures-for-Motherboard.pdf",
+    "qualification": "Mandatory actual-bracket gauge; ATX/Protocase setback differs0.4572."
+  },
+  {
+    "topic": "PSU rear pattern",
+    "source": "Intel336521-002 Fig12-1",
+    "url": "https://www.intel.com/content/dam/www/public/us/en/documents/design-guides/resellers-power-supply-design-guide-changes.pdf",
+    "qualification": "Correct external-rear handedness; #6-32, no PSU modification; actual screw depth gate."
+  },
+  {
+    "topic": "Fan mounting",
+    "source": "Noctua NF-A14 / NV-FM1",
+    "url": "https://cdn.noctua.at/media/noctua_nf-a14_pwm_infosheet_en_web-1.pdf",
+    "qualification": "140frame124.5pitch,120frame105pitch; actual fastener/head/stack selection still required."
+  },
+  {
+    "topic": "Side inserts",
+    "source": "Harrison Silverdale RRE03-1",
+    "url": "https://www.harrisonsilverdale.com/pdf/view-product.php?itemid=31322",
+    "qualification": "Published unset envelope only; installed upset/setting tooling unknown."
+  },
+  {
+    "topic": "SSD bottom pattern",
+    "source": "Seagate Nytro1361 manual / Innodisk3IE2-P",
+    "url": "https://www.seagate.com/www-content/support-content/enterprise-storage/solid-state-drives/nytro-1361/_shared/files/203864400-A.pdf",
+    "qualification": "61.72x76.6;14/90.6fromconnectorbody; penetration and centerededge assumptions gate."
+  },
+  {
+    "topic": "Power switch",
+    "source": "E-Switch exact52-PV0F24011 revA",
+    "url": "https://configured-product-images.s3.amazonaws.com/2D/specs/PV0F24011.pdf",
+    "qualification": "Exact14bezel/12+.2hole;18\u00b11terminaldepth; nut/tool/lowcurrent sample gate."
+  },
+  {
+    "topic": "USB-C",
+    "source": "Newnex U4S5C01C08-010 revA; Delock67234 host adapter",
+    "url": "https://newnex.com/documents/drawings/U4S5C01C08-010.PDF",
+    "qualification": "Published flange30x8,20M3pitch,3.2nose,37.5rear/relief. Embeddednut depth unpublished; commercial passive header-adapter chain requires actual speed/orientation/current tests. No USB-IF/PD claim.",
+    "related_urls": [
+      "https://www.delock.com/produkt/67234/pdf.html?sprache=en"
+    ]
+  },
+  {
+    "topic": "USB-A",
+    "source": "Newnex USR2-AA-1M / catalogue-linked USR2-A family; Delock82941",
+    "url": "https://newnex.com/documents/USR2-A-Custom-Drawing.PDF",
+    "qualification": "Family38.5x13.7/30M3pitch,26.5body/36.5rear. Retail interface match, screwdepth and nose projection require fit check; no A-male/A-male link.",
+    "related_urls": [
+      "https://newnex.com/usb-3-panel-mount-cables.php",
+      "https://www.delock.com/produkt/82941/pdf.html?sprache=en"
+    ]
+  },
+  {
+    "topic": "Audio",
+    "source": "FRONTX P0902_036,36in; mounting dimensions",
+    "url": "https://www.frontx.com/pro/3.5audio_dimensions.gif",
+    "qualification": "\u00d86.1 cut, finishedpanel<1.2,\u00d811.5body,32+15rear, suppliednut\u00d88x1.8. Stereo rear pass-through, notHD_AUDIO/headset/amp; actualrearhood<=11 under controlled exit assembly.",
+    "related_urls": [
+      "https://www.frontx.com/pro/p0902_036.html"
+    ]
+  },
+  {
+    "topic": "License",
+    "source": "CERN-OHL-P-2.0 full text",
+    "url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/CERN-OHL-P-2.0.txt",
+    "qualification": "Client-selected licence; third-party supplier names and specifications retain their rights."
+  }
+]

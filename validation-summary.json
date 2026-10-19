@@ -1,0 +1,680 @@
+{
+  "status": "Completed digital prototype design independently reviewed with no blocking findings. Physical fabrication, hardware/electrical fit, thermal, bonding and load qualification remain mandatory.",
+  "license": "CERN-OHL-P-2.0",
+  "native_and_coloured_STEP": {
+    "failures": [],
+    "fcstd": {
+      "objects": 287,
+      "solids": 290,
+      "volume_mm3": 10045657.47,
+      "bounds_mm": [
+        -153.4,
+        -205.0,
+        0.0,
+        153.4,
+        217.0,
+        520.0
+      ],
+      "size_mm": [
+        306.8,
+        422.0,
+        520.0
+      ]
+    },
+    "step": {
+      "valid": true,
+      "solids": 290,
+      "volume_mm3": 10045657.47,
+      "bounds_mm": [
+        -153.4,
+        -205.0,
+        0.0,
+        153.4,
+        217.0,
+        520.0
+      ]
+    },
+    "passed": true
+  },
+  "main_sheet_designs": 18,
+  "main_sheet_instances": 19,
+  "ancillary_cut_designs": 2,
+  "ancillary_installed_instances": 11,
+  "DXF_files": 29,
+  "closed_cut_loops": 2408,
+  "maximum_serialized_area_error_mm2": 1.5179975889623165e-06,
+  "unique_design_circular_cuts_mapped": 2333,
+  "maximum_serialized_hole_mapping_error_mm": 4.950550192006631e-09,
+  "manufactured_main_parts_all_valid_single_solids": true,
+  "main_sheet_interferences": 0,
+  "explicit_intentional_tap_drill_thread_envelope_overlaps": 9,
+  "reference_screw_component_envelope_intersections": 8,
+  "open_physical_gates": [
+    "Shop bend/joggle/insert coupons and tooling access",
+    "Real PCI/card/cover and rear-I/O gauge",
+    "Selected components, screw penetration, finish stacks and assembly/service access",
+    "Actual I/O retail variant, module thread bottoming, plug hood/finished-panel fit",
+    "Cable OD/bend/reach/strain relief and board-specific header tails",
+    "USB complete-chain enumeration, both C orientations, throughput, hotplug and standard5V current",
+    "Bonding, thermal, handling/load and safety qualification"
+  ],
+  "native_flats": "CAD/Sheet Metal PC Case Flat Patterns.FCStd",
+  "panels_only_STEP": [
+    {
+      "file": "CAD/Sheet Metal PC Case Sheet Parts.step",
+      "objects": 19,
+      "solids": 19,
+      "volume_mm3": 1228467.6291260815,
+      "roundtrip_volume_error_mm3": 2.6263296604156494e-07,
+      "bounds_mm": [
+        -151.0,
+        -205.0,
+        0.0,
+        151.0,
+        217.0,
+        520.0
+      ],
+      "maximum_bound_error_mm": 0.0,
+      "passed": true,
+      "colour": "uncoloured"
+    }
+  ],
+  "source_rebuild": {
+    "passed": true,
+    "portable_detail_generation": true,
+    "standalone_finish_idempotence": true,
+    "native": {
+      "objects": 287,
+      "solids": 290,
+      "volume_mm3": 10045657.470313473,
+      "bounds": [
+        -153.4,
+        -205.0,
+        0.0,
+        153.4,
+        217.0,
+        520.0
+      ],
+      "all_valid": true
+    },
+    "portable_first": {
+      "objects": 287,
+      "solids": 290,
+      "volume_mm3": 10045657.470313473,
+      "bounds": [
+        -153.4,
+        -205.0,
+        0.0,
+        153.4,
+        217.0,
+        520.0
+      ],
+      "all_valid": true
+    },
+    "portable_after_second_finish": {
+      "objects": 287,
+      "solids": 290,
+      "volume_mm3": 10045657.470313473,
+      "bounds": [
+        -153.4,
+        -205.0,
+        0.0,
+        153.4,
+        217.0,
+        520.0
+      ],
+      "all_valid": true
+    },
+    "volume_tolerance_mm3": 0.001,
+    "bounds_tolerance_mm": 0.001,
+    "open_270_degree_service_path_rebuild": [
+      {
+        "file": "Sheet Metal PC Case.FCStd",
+        "open_service_loops": 4,
+        "lengths_mm": [
+          235.61944901923448,
+          235.61944901923448,
+          235.61944901923448,
+          235.61944901923448
+        ]
+      },
+      {
+        "file": "Sheet Metal PC Case.FCStd",
+        "open_service_loops": 4,
+        "lengths_mm": [
+          235.61944901923448,
+          235.61944901923448,
+          235.61944901923448,
+          235.61944901923448
+        ]
+      }
+    ]
+  },
+  "guide_pages": 41,
+  "independent_review": {
+    "no_blocking_findings": true,
+    "scope": "Completed full-I/O digital prototype design, appearance, construction, source honesty and qualifications. Not physical/production certification or export review.",
+    "minor_findings_addressed": [
+      "Clarified all four local C-orientation combinations per chain; repeat device-end reversal when applicable."
+    ]
+  },
+  "io_clearances": {
+    "passed": true,
+    "new_shaped_solid_leaves": 43,
+    "unexpected_new_solid_intersections": [],
+    "nominal_clearances": {
+      "module_head_to_fascia_back_mm": 0.3499999999999943,
+      "attachment_head_to_wrap_mm": 0.8499999999999943,
+      "I03_scallop_to_retained_cage_joint_mm": 0.9999999999999734,
+      "I03_to_power_R10_tool_allocation_mm": 1.0
+    },
+    "routing": [
+      {
+        "route": "IO route USB-C Z380 entry R50",
+        "clearance_radius_mm": 5,
+        "minimum_swept_clearance_mm": 10.350000000000023,
+        "nearest": [
+          [
+            10.350000000000023,
+            "IO Newnex U4S5C01C08-010 Z360 conservative body allocation"
+          ],
+          [
+            37.03867267171979,
+            "I02 \u2014 Concealed folded carrier / common I03 ladder attachment"
+          ],
+          [
+            42.40516849458506,
+            "W01 \u2014 Single charcoal wrap / four main bends and ten downward ears"
+          ]
+        ],
+        "intentional_root_contact_object": "IO017",
+        "method": "Actual continuous centerline-to-solid distance minus allocated cable radius; nonmaterial construction geometry"
+      },
+      {
+        "route": "IO service loop USB-C Z380 R50",
+        "clearance_radius_mm": 5,
+        "minimum_swept_clearance_mm": 3.0,
+        "nearest": [
+          [
+            3.0,
+            "W01 \u2014 Single charcoal wrap / four main bends and ten downward ears"
+          ],
+          [
+            15.515955641258955,
+            "I02 \u2014 Concealed folded carrier / common I03 ladder attachment"
+          ],
+          [
+            29.960284839447212,
+            "I03 \u2014 Common concealed USB ladder / 1mm steel"
+          ]
+        ],
+        "intentional_root_contact_object": null,
+        "method": "Actual continuous centerline-to-solid distance minus allocated cable radius; nonmaterial construction geometry"
+      },
+      {
+        "route": "IO route USB-C Z360 entry R50",
+        "clearance_radius_mm": 5,
+        "minimum_swept_clearance_mm": 10.350000000000023,
+        "nearest": [
+          [
+            10.350000000000023,
+            "IO Newnex U4S5C01C08-010 Z380 conservative body allocation"
+          ],
+          [
+            13.377227756111662,
+            "IO Newnex USR2-AA-1M Z337 conservative body allocation"
+          ],
+          [
+            37.03867267171979,
+            "I02 \u2014 Concealed folded carrier / common I03 ladder attachment"
+          ]
+        ],
+        "intentional_root_contact_object": "IO024",
+        "method": "Actual continuous centerline-to-solid distance minus allocated cable radius; nonmaterial construction geometry"
+      },
+      {
+        "route": "IO service loop USB-C Z360 R50",
+        "clearance_radius_mm": 5,
+        "minimum_swept_clearance_mm": 3.0,
+        "nearest": [
+          [
+            3.0,
+            "W01 \u2014 Single charcoal wrap / four main bends and ten downward ears"
+          ],
+          [
+            15.515955641258955,
+            "I02 \u2014 Concealed folded carrier / common I03 ladder attachment"
+          ],
+          [
+            29.960284839447205,
+            "I03 \u2014 Common concealed USB ladder / 1mm steel"
+          ]
+        ],
+        "intentional_root_contact_object": null,
+        "method": "Actual continuous centerline-to-solid distance minus allocated cable radius; nonmaterial construction geometry"
+      },
+      {
+        "route": "IO route USB-A Z337 entry R50",
+        "clearance_radius_mm": 5,
+        "minimum_swept_clearance_mm": 11.350000000000023,
+        "nearest": [
+          [
+            11.350000000000023,
+            "IO Newnex USR2-AA-1M Z316 conservative body allocation"
+          ],
+          [
+            13.350000000000023,
+            "IO Newnex U4S5C01C08-010 Z360 conservative body allocation"
+          ],
+          [
+            36.59627387158614,
+            "I02 \u2014 Concealed folded carrier / common I03 ladder attachment"
+          ]
+        ],
+        "intentional_root_contact_object": "IO031",
+        "method": "Actual continuous centerline-to-solid distance minus allocated cable radius; nonmaterial construction geometry"
+      },
+      {
+        "route": "IO service loop USB-A Z337 R50",
+        "clearance_radius_mm": 5,
+        "minimum_swept_clearance_mm": 3.0,
+        "nearest": [
+          [
+            3.0,
+            "W01 \u2014 Single charcoal wrap / four main bends and ten downward ears"
+          ],
+          [
+            15.515955641258955,
+            "I02 \u2014 Concealed folded carrier / common I03 ladder attachment"
+          ],
+          [
+            27.617470058294536,
+            "I/O shell M3x10 pan screw"
+          ]
+        ],
+        "intentional_root_contact_object": null,
+        "method": "Actual continuous centerline-to-solid distance minus allocated cable radius; nonmaterial construction geometry"
+      },
+      {
+        "route": "IO route USB-A Z316 entry R50",
+        "clearance_radius_mm": 5,
+        "minimum_swept_clearance_mm": 11.350000000000023,
+        "nearest": [
+          [
+            11.350000000000023,
+            "IO Newnex USR2-AA-1M Z337 conservative body allocation"
+          ],
+          [
+            36.59627387158614,
+            "I02 \u2014 Concealed folded carrier / common I03 ladder attachment"
+          ],
+          [
+            41.51075144523038,
+            "W01 \u2014 Single charcoal wrap / four main bends and ten downward ears"
+          ]
+        ],
+        "intentional_root_contact_object": "IO038",
+        "method": "Actual continuous centerline-to-solid distance minus allocated cable radius; nonmaterial construction geometry"
+      },
+      {
+        "route": "IO service loop USB-A Z316 R50",
+        "clearance_radius_mm": 5,
+        "minimum_swept_clearance_mm": 3.0,
+        "nearest": [
+          [
+            3.0,
+            "W01 \u2014 Single charcoal wrap / four main bends and ten downward ears"
+          ],
+          [
+            15.515955641258955,
+            "I02 \u2014 Concealed folded carrier / common I03 ladder attachment"
+          ],
+          [
+            29.960284839447212,
+            "I03 \u2014 Common concealed USB ladder / 1mm steel"
+          ]
+        ],
+        "intentional_root_contact_object": null,
+        "method": "Actual continuous centerline-to-solid distance minus allocated cable radius; nonmaterial construction geometry"
+      },
+      {
+        "route": "IO stereo cable protected right-side route to split rear grommet",
+        "clearance_radius_mm": 3,
+        "minimum_swept_clearance_mm": 2.9938112412618034,
+        "nearest": [
+          [
+            2.9938112412618034,
+            "R01 \u2014 Rear hardware interface / fastened to wrap and tray"
+          ],
+          [
+            10.499999999999972,
+            "S01 \u2014 Sand sled right / radiused joggle"
+          ],
+          [
+            11.0,
+            "Optional120 fan reference / X115..140"
+          ]
+        ],
+        "intentional_root_contact_object": "IO041",
+        "method": "Actual continuous centerline-to-solid distance minus allocated cable radius; nonmaterial construction geometry"
+      },
+      {
+        "route": "IO power switch pair entry and support allocation",
+        "clearance_radius_mm": 2,
+        "minimum_swept_clearance_mm": 11.499999999999972,
+        "nearest": [
+          [
+            11.499999999999972,
+            "S01 \u2014 Sand sled right / radiused joggle"
+          ],
+          [
+            13.350000000000023,
+            "IO Newnex U4S5C01C08-010 Z380 conservative body allocation"
+          ],
+          [
+            15.804493814764857,
+            "I03 \u2014 Common concealed USB ladder / 1mm steel"
+          ]
+        ],
+        "intentional_root_contact_object": "Detail",
+        "method": "Actual continuous centerline-to-solid distance minus allocated cable radius; nonmaterial construction geometry"
+      }
+    ],
+    "inter_route_clearances": [
+      {
+        "a": "IO route USB-C Z380 entry R50",
+        "b": "IO route USB-C Z360 entry R50",
+        "swept_clearance_mm": 10.0
+      },
+      {
+        "a": "IO route USB-C Z380 entry R50",
+        "b": "IO service loop USB-C Z360 R50",
+        "swept_clearance_mm": 10.0
+      },
+      {
+        "a": "IO route USB-C Z380 entry R50",
+        "b": "IO route USB-A Z337 entry R50",
+        "swept_clearance_mm": 33.0
+      },
+      {
+        "a": "IO route USB-C Z380 entry R50",
+        "b": "IO service loop USB-A Z337 R50",
+        "swept_clearance_mm": 33.0
+      },
+      {
+        "a": "IO route USB-C Z380 entry R50",
+        "b": "IO route USB-A Z316 entry R50",
+        "swept_clearance_mm": 54.0
+      },
+      {
+        "a": "IO route USB-C Z380 entry R50",
+        "b": "IO service loop USB-A Z316 R50",
+        "swept_clearance_mm": 54.0
+      },
+      {
+        "a": "IO route USB-C Z380 entry R50",
+        "b": "IO stereo cable protected right-side route to split rear grommet",
+        "swept_clearance_mm": 91.0
+      },
+      {
+        "a": "IO route USB-C Z380 entry R50",
+        "b": "IO power switch pair entry and support allocation",
+        "swept_clearance_mm": 13.023308368134046
+      },
+      {
+        "a": "IO service loop USB-C Z380 R50",
+        "b": "IO route USB-C Z360 entry R50",
+        "swept_clearance_mm": 10.0
+      },
+      {
+        "a": "IO service loop USB-C Z380 R50",
+        "b": "IO service loop USB-C Z360 R50",
+        "swept_clearance_mm": 10.0
+      },
+      {
+        "a": "IO service loop USB-C Z380 R50",
+        "b": "IO route USB-A Z337 entry R50",
+        "swept_clearance_mm": 33.0
+      },
+      {
+        "a": "IO service loop USB-C Z380 R50",
+        "b": "IO service loop USB-A Z337 R50",
+        "swept_clearance_mm": 33.0
+      },
+      {
+        "a": "IO service loop USB-C Z380 R50",
+        "b": "IO route USB-A Z316 entry R50",
+        "swept_clearance_mm": 54.0
+      },
+      {
+        "a": "IO service loop USB-C Z380 R50",
+        "b": "IO service loop USB-A Z316 R50",
+        "swept_clearance_mm": 54.0
+      },
+      {
+        "a": "IO service loop USB-C Z380 R50",
+        "b": "IO stereo cable protected right-side route to split rear grommet",
+        "swept_clearance_mm": 102.90987332063814
+      },
+      {
+        "a": "IO service loop USB-C Z380 R50",
+        "b": "IO power switch pair entry and support allocation",
+        "swept_clearance_mm": 48.53010116145351
+      },
+      {
+        "a": "IO route USB-C Z360 entry R50",
+        "b": "IO route USB-A Z337 entry R50",
+        "swept_clearance_mm": 13.0
+      },
+      {
+        "a": "IO route USB-C Z360 entry R50",
+        "b": "IO service loop USB-A Z337 R50",
+        "swept_clearance_mm": 13.0
+      },
+      {
+        "a": "IO route USB-C Z360 entry R50",
+        "b": "IO route USB-A Z316 entry R50",
+        "swept_clearance_mm": 34.0
+      },
+      {
+        "a": "IO route USB-C Z360 entry R50",
+        "b": "IO service loop USB-A Z316 R50",
+        "swept_clearance_mm": 34.0
+      },
+      {
+        "a": "IO route USB-C Z360 entry R50",
+        "b": "IO stereo cable protected right-side route to split rear grommet",
+        "swept_clearance_mm": 71.0
+      },
+      {
+        "a": "IO route USB-C Z360 entry R50",
+        "b": "IO power switch pair entry and support allocation",
+        "swept_clearance_mm": 33.01165927583342
+      },
+      {
+        "a": "IO service loop USB-C Z360 R50",
+        "b": "IO route USB-A Z337 entry R50",
+        "swept_clearance_mm": 13.0
+      },
+      {
+        "a": "IO service loop USB-C Z360 R50",
+        "b": "IO service loop USB-A Z337 R50",
+        "swept_clearance_mm": 13.0
+      },
+      {
+        "a": "IO service loop USB-C Z360 R50",
+        "b": "IO route USB-A Z316 entry R50",
+        "swept_clearance_mm": 34.0
+      },
+      {
+        "a": "IO service loop USB-C Z360 R50",
+        "b": "IO service loop USB-A Z316 R50",
+        "swept_clearance_mm": 34.0
+      },
+      {
+        "a": "IO service loop USB-C Z360 R50",
+        "b": "IO stereo cable protected right-side route to split rear grommet",
+        "swept_clearance_mm": 85.49331526906082
+      },
+      {
+        "a": "IO service loop USB-C Z360 R50",
+        "b": "IO power switch pair entry and support allocation",
+        "swept_clearance_mm": 58.44915687005647
+      },
+      {
+        "a": "IO route USB-A Z337 entry R50",
+        "b": "IO route USB-A Z316 entry R50",
+        "swept_clearance_mm": 11.0
+      },
+      {
+        "a": "IO route USB-A Z337 entry R50",
+        "b": "IO service loop USB-A Z316 R50",
+        "swept_clearance_mm": 11.0
+      },
+      {
+        "a": "IO route USB-A Z337 entry R50",
+        "b": "IO stereo cable protected right-side route to split rear grommet",
+        "swept_clearance_mm": 48.0
+      },
+      {
+        "a": "IO route USB-A Z337 entry R50",
+        "b": "IO power switch pair entry and support allocation",
+        "swept_clearance_mm": 56.00280786596601
+      },
+      {
+        "a": "IO service loop USB-A Z337 R50",
+        "b": "IO route USB-A Z316 entry R50",
+        "swept_clearance_mm": 11.0
+      },
+      {
+        "a": "IO service loop USB-A Z337 R50",
+        "b": "IO service loop USB-A Z316 R50",
+        "swept_clearance_mm": 11.0
+      },
+      {
+        "a": "IO service loop USB-A Z337 R50",
+        "b": "IO stereo cable protected right-side route to split rear grommet",
+        "swept_clearance_mm": 67.07329751649384
+      },
+      {
+        "a": "IO service loop USB-A Z337 R50",
+        "b": "IO power switch pair entry and support allocation",
+        "swept_clearance_mm": 74.56342400243666
+      },
+      {
+        "a": "IO route USB-A Z316 entry R50",
+        "b": "IO stereo cable protected right-side route to split rear grommet",
+        "swept_clearance_mm": 27.0
+      },
+      {
+        "a": "IO route USB-A Z316 entry R50",
+        "b": "IO power switch pair entry and support allocation",
+        "swept_clearance_mm": 77.00210592000553
+      },
+      {
+        "a": "IO service loop USB-A Z316 R50",
+        "b": "IO stereo cable protected right-side route to split rear grommet",
+        "swept_clearance_mm": 53.03277807866851
+      },
+      {
+        "a": "IO service loop USB-A Z316 R50",
+        "b": "IO power switch pair entry and support allocation",
+        "swept_clearance_mm": 91.68937194552036
+      },
+      {
+        "a": "IO stereo cable protected right-side route to split rear grommet",
+        "b": "IO power switch pair entry and support allocation",
+        "swept_clearance_mm": 114.08505363814554
+      }
+    ],
+    "mating_allocations": [
+      {
+        "name": "Type-E upper",
+        "origin": [
+          -85,
+          -135,
+          423
+        ],
+        "size": [
+          55,
+          20,
+          15
+        ],
+        "solid_collisions": [],
+        "status": "Service/mating allocation only, NOT board-specific installed connector coordinates"
+      },
+      {
+        "name": "Type-E lower",
+        "origin": [
+          -85,
+          -135,
+          400
+        ],
+        "size": [
+          55,
+          20,
+          15
+        ],
+        "solid_collisions": [],
+        "status": "Service/mating allocation only, NOT board-specific installed connector coordinates"
+      },
+      {
+        "name": "A restrained pair",
+        "origin": [
+          -48,
+          -120,
+          286
+        ],
+        "size": [
+          96,
+          25,
+          18
+        ],
+        "solid_collisions": [],
+        "status": "Service/mating allocation only, NOT board-specific installed connector coordinates"
+      }
+    ],
+    "service_path_self_checks": [
+      {
+        "z": 380,
+        "continuous_open_wire": true,
+        "service_arc_degrees": 270,
+        "service_length_mm": 235.61944901923448,
+        "minimum_nonadjacent_swept_gap_mm": 39.99999999999999
+      },
+      {
+        "z": 360,
+        "continuous_open_wire": true,
+        "service_arc_degrees": 270,
+        "service_length_mm": 235.61944901923448,
+        "minimum_nonadjacent_swept_gap_mm": 39.99999999999999
+      },
+      {
+        "z": 337,
+        "continuous_open_wire": true,
+        "service_arc_degrees": 270,
+        "service_length_mm": 235.61944901923448,
+        "minimum_nonadjacent_swept_gap_mm": 39.99999999999999
+      },
+      {
+        "z": 316,
+        "continuous_open_wire": true,
+        "service_arc_degrees": 270,
+        "service_length_mm": 235.61944901923448,
+        "minimum_nonadjacent_swept_gap_mm": 39.99999999999999
+      }
+    ],
+    "intentional_thread_representation": "New nominal M3 screws touch nominal\u00d83 embeddednut/nut bores; true helices not modelled. Existing9 PCI screw/tap-drill intersections remain separately in assembly-check.json.",
+    "qualification": "Swept allocations validate ONLY shown paths and diameter assumptions. Actual cable OD/minbend, local tie force, header-tail endpoints/slack and external audio end depend on selected hardware; no complete installed-harness or OEM module-fit certification."
+  },
+  "renamed_release": {
+    "project": "Sheet Metal PC Case",
+    "scope": "Complete filename and title replacement with reader-facing copy editing; no geometric redesign.",
+    "native_and_STEP_load_validation": "passed",
+    "source_generation_and_export": "completed",
+    "metadata_label_spacing": "normalised to retain existing identifier-prefix checks",
+    "assembly_and_io_validation": "passed",
+    "pdf_pages": 41,
+    "publication_review": "Independent finished-release review found no blocking findings; minor deployment wording corrected."
+  }
+}

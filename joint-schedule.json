@@ -1,0 +1,191 @@
+[
+  {
+    "part": "S01/S02",
+    "mates_to": "W01",
+    "hardware": "10 M3x8 +10 RRE03-1 +10 nominal0.2shims",
+    "access": "outsideX",
+    "stack_and_engagement": "1.5side +.7head/shim gap +1flange; nominal4.8useful engaged thread; coupon-set insert"
+  },
+  {
+    "part": "W01",
+    "mates_to": "R01 via C01..C04",
+    "hardware": "8 M3x8,8washers,8nuts",
+    "access": "roof/floor/rear plus open sides",
+    "stack_and_engagement": "two1mm sheets each joint; washer.5,nut2.4;8length leaves3.1nominal beyond nut"
+  },
+  {
+    "part": "M01",
+    "mates_to": "W01",
+    "hardware": "4 M3x8,4washers,4nuts",
+    "access": "roof/floor exterior, left-side spanner",
+    "stack_and_engagement": "two1mm sheets; washer.5,nut2.4; not captive; remove leftsled for service"
+  },
+  {
+    "part": "M01",
+    "mates_to": "R01 via T01/T02",
+    "hardware": "4 M3x8,4washers,4nuts",
+    "access": "rear exterior and component side; nut cable side",
+    "stack_and_engagement": "two1mm sheets each; washer.5,nut2.4"
+  },
+  {
+    "part": "M02",
+    "mates_to": "R01",
+    "hardware": "2 M3x10,2 two-mm spacers,2washers,2nuts",
+    "access": "rear",
+    "stack_and_engagement": "1back+2spacer+1rail+.5washer+2.4nut=6.9;3.1nominal excess"
+  },
+  {
+    "part": "M03",
+    "mates_to": "M02",
+    "hardware": "2 M3x5 through rail into3mm tapped strip",
+    "access": "+X outside rear rail",
+    "stack_and_engagement": "1rail+3nutstrip=4; full3engagement,1tip; M3 taps afterlaser"
+  },
+  {
+    "part": "purchased PCI cover/GPU bracket",
+    "mates_to": "M02/M03",
+    "hardware": "7 M3x6 +7M3washers;7purchased covers",
+    "access": "+X rear rail",
+    "stack_and_engagement": "1nominal cover+.5washer+1rail+3nutstrip=5.5;0.5tip. Notch fit and0.4572datum gauge gate."
+  },
+  {
+    "part": "I01",
+    "mates_to": "W01/I02",
+    "hardware": "captured0.5gasket +4one-mm pads",
+    "access": "removeI02fromrightinterior",
+    "stack_and_engagement": "fasciaY-197.5..-196.5; backpads tocarrierY-195.5; cage captures flange, no floatingface"
+  },
+  {
+    "part": "I02",
+    "mates_to": "W01",
+    "hardware": "2 M3x10 pan screws,2x2.5spacers,2washers,2nuts",
+    "access": "front screwdriver/right-side nut access",
+    "stack_and_engagement": "1wrap+2.5spacer+1carrier+.5washer+2.4nut=7.4;2.6nominaltip; no welding"
+  },
+  {
+    "part": "F01",
+    "mates_to": "W01",
+    "hardware": "2 M3x8 +washers/nuts",
+    "access": "roof outside, side spanner",
+    "stack_and_engagement": "1roof+1bracket+.5washer+2.4nut; wholefan/bracket removable"
+  },
+  {
+    "part": "optional120fan",
+    "mates_to": "F01",
+    "hardware": "4 M4x35 +.8washers +3.2nuts",
+    "access": "bench after bracket removal",
+    "stack_and_engagement": "25fan+1bracket+.8washer+3.2nut=30;5nominaltip; head3gives0.5to side"
+  },
+  {
+    "part": "G01",
+    "mates_to": "W01",
+    "hardware": "2 M4x10 +.8washers +3.2nuts",
+    "access": "floor outside; open right side",
+    "stack_and_engagement": "1floor+3foot+.8washer+3.2nut=8;2tip;2bolts share54longY-adjustment slot"
+  },
+  {
+    "part": "G02",
+    "mates_to": "G01",
+    "hardware": "2 M4x12 +.8washers +3.2nuts",
+    "access": "open right side",
+    "stack_and_engagement": "3ledge+3post+.8washer+3.2nut=10;2tip; verticalslots;2padtoGPU"
+  },
+  {
+    "part": "PSU support bosses",
+    "mates_to": "W01",
+    "hardware": "4 M3x6 into blind-M3 \u00d88x8 bosses",
+    "access": "underside",
+    "stack_and_engagement": "1floor+5thread engaged;6deep bore leaves2topwall;supporttopZ34"
+  },
+  {
+    "part": "PSU",
+    "mates_to": "R01",
+    "hardware": "4 #6-32UNC x1/4in",
+    "access": "rear",
+    "stack_and_engagement": "1back;5.35nominalpenetration MUST be checked against chosenPSU; no PSU drilling/opening"
+  },
+  {
+    "part": "SSD",
+    "mates_to": "M01",
+    "hardware": "4 M3x4",
+    "access": "component side before motherboard install",
+    "stack_and_engagement": "1tray gives3nominaldrivepenetration; chosenSSD limit gate; no addednuts"
+  },
+  {
+    "part": "motherboard standoffs",
+    "mates_to": "M01",
+    "hardware": "9 male-M3x5 studs +9M3nuts",
+    "access": "cable side before board",
+    "stack_and_engagement": "1tray+2.4nut;1.6tip;9.525standoff height fixed"
+  },
+  {
+    "part": "motherboard",
+    "mates_to": "standoffs",
+    "hardware": "9 M3x6",
+    "access": "component side",
+    "stack_and_engagement": "1.6PCB +4.4female engagement; install only board-supported standoffs"
+  },
+  {
+    "part": "bottom140fan",
+    "mates_to": "W01",
+    "hardware": "4 M4x35 +.8washers +3.2nuts",
+    "access": "underside and open case",
+    "stack_and_engagement": "1floor+25fan+.8washer+3.2nut=30;5tip clear components"
+  },
+  {
+    "part": "rear140fan",
+    "mates_to": "R01",
+    "hardware": "4 M4x30 +.8washers +3.2plainnuts",
+    "access": "rear and open side",
+    "stack_and_engagement": "1back+25fan+.8washer+3.2nut=30 exactly; flush fullnut engagement, check actual stack. Plain nut plus removable lowstrengththreadlock, NOT nyloc.35hits optionalbracket."
+  },
+  {
+    "part": "bond lug",
+    "mates_to": "R01",
+    "hardware": "M4x10, toothed/appropriate conductive lug washer and nut",
+    "access": "rear/open side",
+    "stack_and_engagement": "\u00d84.5dedicated holeX130Z250. Actual ringlug thickness/screw length must be stack-checked. PSU safety earth remains untouched."
+  },
+  {
+    "part": "I03",
+    "mates_to": "I02",
+    "hardware": "4 M3x6 ISO7380-1 +4 .5washers +4 plainM3nuts",
+    "access": "bench fronthex / openright nuts",
+    "stack_and_engagement": "1+1+.5+2.4=4.9mm;1.1tip;headmax1.65;0.85to wrapinner"
+  },
+  {
+    "part": "4 Newnex USB modules",
+    "mates_to": "I03",
+    "hardware": "8 M3x4 ISO7380-1 +8 .5washers -> embeddedM3nuts",
+    "access": "bench fronthex with cage removed",
+    "stack_and_engagement": "1plate+.5washer;2.5nominal engagement; supplier alloweddepth UNKNOWN, bottoming/engagement receiving check;flangeY-193"
+  },
+  {
+    "part": "PV0F24011 unchanged",
+    "mates_to": "I01",
+    "hardware": "supplier mounting nut/washer, no substitute thread callout",
+    "access": "bench with cage removed",
+    "stack_and_engagement": "unchanged\u00d812.1cut and bezel/barrel datum; verify suppliednut/tool access and insulated terminals"
+  },
+  {
+    "part": "FRONTX P0902_036",
+    "mates_to": "I01",
+    "hardware": "supplied ringnut only; thread unspecified",
+    "access": "front before capturedfascia install",
+    "stack_and_engagement": "1mm fascia finished<1.2;nut1.8;3mm exposedthread;0.2nominaltip"
+  },
+  {
+    "part": "USB/audio cable restraint",
+    "mates_to": "I02 existingreturn tieholes",
+    "hardware": "8 releasable2.5mm ties +6cushioned straps +sleeving",
+    "access": "open case, before closing sides",
+    "stack_and_engagement": "loop and mating-pair supports; Type-E cable supported near actualheader, no headerlevering; inspect fan exclusion"
+  },
+  {
+    "part": "stereo rear cable",
+    "mates_to": "R01 existing\u00d812 exit",
+    "hardware": "split grommet nominalID9",
+    "access": "removegrommet,pass plug,fit split aroundcable",
+    "stack_and_engagement": "maximumplughood<=11mm throughbare\u00d812; protect externalcable toselectedrearstereooutput"
+  }
+]

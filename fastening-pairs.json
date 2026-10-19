@@ -1,0 +1,238 @@
+[
+  {
+    "pair": "sled/wrap ear",
+    "xyz": [
+      -145,
+      -165,
+      448
+    ],
+    "hardware": "M3x8 pan + RRE03-1",
+    "stack_mm": [
+      1.5,
+      0.7,
+      1
+    ],
+    "engagement_nominal_mm": 4.8,
+    "access": "external screwdriver; set insert before assembly. .5 head within .7 gap; retain thin spacer strips as required after finish."
+  },
+  {
+    "pair": "sled/wrap ear",
+    "xyz": [
+      -151,
+      -165,
+      11
+    ],
+    "hardware": "M3x8 pan + RRE03-1",
+    "stack_mm": [
+      1.5,
+      0.7,
+      1
+    ],
+    "engagement_nominal_mm": 4.8,
+    "access": "external screwdriver; set insert before assembly. .5 head within .7 gap; retain thin spacer strips as required after finish."
+  },
+  {
+    "pair": "sled/wrap ear",
+    "xyz": [
+      -145,
+      0,
+      448
+    ],
+    "hardware": "M3x8 pan + RRE03-1",
+    "stack_mm": [
+      1.5,
+      0.7,
+      1
+    ],
+    "engagement_nominal_mm": 4.8,
+    "access": "external screwdriver; set insert before assembly. .5 head within .7 gap; retain thin spacer strips as required after finish."
+  },
+  {
+    "pair": "sled/wrap ear",
+    "xyz": [
+      -145,
+      165,
+      448
+    ],
+    "hardware": "M3x8 pan + RRE03-1",
+    "stack_mm": [
+      1.5,
+      0.7,
+      1
+    ],
+    "engagement_nominal_mm": 4.8,
+    "access": "external screwdriver; set insert before assembly. .5 head within .7 gap; retain thin spacer strips as required after finish."
+  },
+  {
+    "pair": "sled/wrap ear",
+    "xyz": [
+      -151,
+      165,
+      11
+    ],
+    "hardware": "M3x8 pan + RRE03-1",
+    "stack_mm": [
+      1.5,
+      0.7,
+      1
+    ],
+    "engagement_nominal_mm": 4.8,
+    "access": "external screwdriver; set insert before assembly. .5 head within .7 gap; retain thin spacer strips as required after finish."
+  },
+  {
+    "pair": "sled/wrap ear",
+    "xyz": [
+      145,
+      -165,
+      448
+    ],
+    "hardware": "M3x8 pan + RRE03-1",
+    "stack_mm": [
+      1.5,
+      0.7,
+      1
+    ],
+    "engagement_nominal_mm": 4.8,
+    "access": "external screwdriver; set insert before assembly. .5 head within .7 gap; retain thin spacer strips as required after finish."
+  },
+  {
+    "pair": "sled/wrap ear",
+    "xyz": [
+      151,
+      -165,
+      11
+    ],
+    "hardware": "M3x8 pan + RRE03-1",
+    "stack_mm": [
+      1.5,
+      0.7,
+      1
+    ],
+    "engagement_nominal_mm": 4.8,
+    "access": "external screwdriver; set insert before assembly. .5 head within .7 gap; retain thin spacer strips as required after finish."
+  },
+  {
+    "pair": "sled/wrap ear",
+    "xyz": [
+      145,
+      0,
+      448
+    ],
+    "hardware": "M3x8 pan + RRE03-1",
+    "stack_mm": [
+      1.5,
+      0.7,
+      1
+    ],
+    "engagement_nominal_mm": 4.8,
+    "access": "external screwdriver; set insert before assembly. .5 head within .7 gap; retain thin spacer strips as required after finish."
+  },
+  {
+    "pair": "sled/wrap ear",
+    "xyz": [
+      145,
+      165,
+      448
+    ],
+    "hardware": "M3x8 pan + RRE03-1",
+    "stack_mm": [
+      1.5,
+      0.7,
+      1
+    ],
+    "engagement_nominal_mm": 4.8,
+    "access": "external screwdriver; set insert before assembly. .5 head within .7 gap; retain thin spacer strips as required after finish."
+  },
+  {
+    "pair": "sled/wrap ear",
+    "xyz": [
+      151,
+      165,
+      11
+    ],
+    "hardware": "M3x8 pan + RRE03-1",
+    "stack_mm": [
+      1.5,
+      0.7,
+      1
+    ],
+    "engagement_nominal_mm": 4.8,
+    "access": "external screwdriver; set insert before assembly. .5 head within .7 gap; retain thin spacer strips as required after finish."
+  },
+  {
+    "pair": "PSU to rear",
+    "pattern_global_XZ": [
+      [
+        -49,
+        114
+      ],
+      [
+        89,
+        114
+      ],
+      [
+        89,
+        50
+      ],
+      [
+        -25,
+        40
+      ]
+    ],
+    "source": "Intel336521-002 Fig12-1 external AC rear view; global X=95-drawingX, global Z=34+drawingY",
+    "hardware": "4 #6-32 UNC x1/4 inch nominal; verify PSU permitted penetration: 5.35mm through1mm back. Use shorter if required. No PSU opening/modification."
+  },
+  {
+    "pair": "I03/I02",
+    "scope": "IOCompletion",
+    "pattern_global_XZ": [
+      [
+        72,
+        308
+      ],
+      [
+        72,
+        386
+      ],
+      [
+        128,
+        308
+      ],
+      [
+        128,
+        386
+      ]
+    ],
+    "hardware": "4 M3x6 ISO7380-1 +4 .5washers +4 M3plainnuts",
+    "stack_mm": [
+      1,
+      1,
+      0.5,
+      2.4
+    ],
+    "nominal_tip_mm": 1.1,
+    "access": "Bench assemble cage/ladder before installing fascia; front heads concealed; open-right-side nut access"
+  },
+  {
+    "pair": "4 Newnex modules/I03",
+    "scope": "IOCompletion",
+    "hardware": "8 M3x4 ISO7380-1 +8 .5washers to embedded supplier M3nuts",
+    "stack_mm": [
+      1,
+      0.5
+    ],
+    "engagement_nominal_mm": 2.5,
+    "access": "Bench front hex key; stripcage for service; actual screw-bottoming/engagement receiving check required"
+  },
+  {
+    "pair": "FRONTX/I01",
+    "scope": "IOCompletion",
+    "hardware": "Supplied ringnut ONLY, thread unspecified",
+    "stack_mm": [
+      1,
+      1.8
+    ],
+    "nominal_thread_tip_mm": 0.2,
+    "access": "Nut fromfront before captured fascia fitted; finishedpanel<1.2"
+  }
+]

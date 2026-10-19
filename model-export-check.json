@@ -1,0 +1,20 @@
+[
+  {
+    "file": "CAD/Sheet Metal PC Case Sheet Parts.step",
+    "objects": 19,
+    "solids": 19,
+    "volume_mm3": 1228467.6291260815,
+    "roundtrip_volume_error_mm3": 2.6263296604156494e-07,
+    "bounds_mm": [
+      -151.0,
+      -205.0,
+      0.0,
+      151.0,
+      217.0,
+      520.0
+    ],
+    "maximum_bound_error_mm": 0.0,
+    "passed": true,
+    "colour": "uncoloured"
+  }
+]

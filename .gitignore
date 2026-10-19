@@ -1,0 +1,19 @@
+# FreeCAD backup and temporary files
+*.FCStd#
+*.FCBak
+*.FCStd.bak
+*~
+
+# Python cache and temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Operating System and IDE files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/

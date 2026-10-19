@@ -1,0 +1,111 @@
+{
+  "board_datums": {
+    "A_Y": 189.7318,
+    "A_Z": 141.51,
+    "PCB_Z": [
+      125,
+      429.8
+    ],
+    "PCB_rear_Y": 199.8918,
+    "rear_inner_Y": 202,
+    "PCB_under_X": -106.975,
+    "PCB_top_X": -105.375,
+    "standoff_height": 9.525,
+    "rear_IO_X": [
+      -109.2102,
+      -64.7602
+    ],
+    "rear_IO_Z": [
+      273.4884,
+      432.2384
+    ]
+  },
+  "mounting_holes": [
+    {
+      "name": "A",
+      "Y": 189.7318,
+      "Z": 141.51
+    },
+    {
+      "name": "B",
+      "Y": 189.7318,
+      "Z": 220.25
+    },
+    {
+      "name": "C",
+      "Y": 189.7318,
+      "Z": 265.96999999999997
+    },
+    {
+      "name": "F",
+      "Y": 166.8718,
+      "Z": 423.45
+    },
+    {
+      "name": "G",
+      "Y": 34.791799999999995,
+      "Z": 141.51
+    },
+    {
+      "name": "H",
+      "Y": 34.791799999999995,
+      "Z": 265.96999999999997
+    },
+    {
+      "name": "J",
+      "Y": 34.791799999999995,
+      "Z": 423.45
+    },
+    {
+      "name": "K",
+      "Y": -37.59820000000002,
+      "Z": 141.51
+    },
+    {
+      "name": "L",
+      "Y": -37.59820000000002,
+      "Z": 265.96999999999997
+    },
+    {
+      "name": "M",
+      "Y": -37.59820000000002,
+      "Z": 423.45
+    },
+    {
+      "name": "R",
+      "Y": 34.791799999999995,
+      "Z": 199.93
+    },
+    {
+      "name": "S",
+      "Y": 34.791799999999995,
+      "Z": 220.25
+    }
+  ],
+  "clearances_mm": {
+    "rearPCB_to_innerrear": 2.1082,
+    "PCBtop_to_innerroof": 27.2,
+    "GPUfront_to_upperfrontinner": 57.8918,
+    "GPU35reserve_to_sideinner": 63.875,
+    "CPU170tip_to_sideinner": 70.875,
+    "CPU170tip_to_optional_fan": 42.375,
+    "CPU170tip_to_optional_bracket": 41.375,
+    "optional_fan_frame_to_rear_fan_frame": 7,
+    "optional_fan_panhead_to_side": 0.5,
+    "bottomfan_to_innerfront": 8,
+    "bottomfan_to_PSU60reserve": 16,
+    "SSD_body_to_leftsideinner": 19,
+    "GPU_support_foot_to_bottomfan_X": 6
+  },
+  "PSU_140_depth_all_support_contact": true,
+  "PSU_160_depth_all_support_contact": true,
+  "PSU_180_depth_all_support_contact": true,
+  "reserve_collisions": [],
+  "qualifications": [
+    "Simple component envelopes are notOEMreplicas.",
+    "Socket/RAM/VRM/GPUcontact/cable bend limits are selected-hardware gates.",
+    "Selected I/O envelopes and routing allocations integrated; see io-clearance-check.json and io-interfaces.json. Unknown corners/threaddepth/cableOD/bend and actualheader positions remain physical qualification, not verified OEM fit.",
+    "12trayholes verified; selected actualboard subset only.",
+    "ATX rearshield band2.54mm clear bothfaces; mask finish."
+  ]
+}

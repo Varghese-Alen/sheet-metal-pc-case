@@ -1,0 +1,90 @@
+[
+  {
+    "id": "I00-fully-blank-option",
+    "quantity": 1,
+    "thickness_mm": 1.0,
+    "material": "aluminium",
+    "folder": "DXF/Alternatives",
+    "notes": "Alternative to I01; omit all ports/power/I03/module hardware. Same captured fascia. Never count as extra main sheet."
+  },
+  {
+    "id": "I01-power-only",
+    "quantity": 1,
+    "thickness_mm": 1.0,
+    "material": "aluminium",
+    "folder": "DXF/Alternatives",
+    "notes": "Backward-use alternative: power only; omit USB/audio/I03 and their hardware, retain I02 carrier. No sample template."
+  },
+  {
+    "id": "I01-C1",
+    "quantity": 1,
+    "thickness_mm": 1.0,
+    "material": "aluminium",
+    "folder": "DXF/Alternatives",
+    "notes": "One C atZ380 only; lowerC Z360 BLANK. Retain2A/audio/power/commonI03. Omit lowerC module, one67234, twoM3x4 and two0.5washers. One independentType-E host required."
+  },
+  {
+    "id": "QC01-steel-R1",
+    "quantity": 1,
+    "thickness_mm": 1.0,
+    "material": "mild steel",
+    "folder": "DXF/Process-coupons",
+    "notes": "Bend90deg to40x40 outside legs; neutralBA 2.230530784; flat bendaxis u=39.115265392; provisional Ri1 K0.42. Measure springback/effectiveK at actual grain/tool/finish."
+  },
+  {
+    "id": "QC02-side-R2p25",
+    "quantity": 1,
+    "thickness_mm": 1.5,
+    "material": "5052-H32 aluminium",
+    "folder": "DXF/Process-coupons",
+    "notes": "Bend90deg to40x40 outside legs; neutralBA 4.476769531; flat bendaxis u=38.488384766; provisional Ri2.25 K0.4. Measure springback/effectiveK at actual grain/tool/finish."
+  },
+  {
+    "id": "QC03-support-R3",
+    "quantity": 1,
+    "thickness_mm": 3.0,
+    "material": "mild steel",
+    "folder": "DXF/Process-coupons",
+    "notes": "Bend90deg to40x40 outside legs; neutralBA 6.597344573; flat bendaxis u=37.298672286; provisional Ri3 K0.4. Measure springback/effectiveK at actual grain/tool/finish."
+  },
+  {
+    "id": "QC04-rivnut-power",
+    "quantity": 1,
+    "thickness_mm": 1.0,
+    "material": "mild steel",
+    "folder": "DXF/Process-coupons",
+    "notes": "RRE03-1 \u00d85 pilot, side clearance\u00d83.4, PV0F24011\u00d812.1. Validate setter nose/bulb, spin/torque, finish and head gap. Test power on1mmaluminium fascia separately."
+  },
+  {
+    "id": "QC05-side-joggle",
+    "quantity": 1,
+    "thickness_mm": 1.5,
+    "material": "5052-H32 aluminium",
+    "folder": "DXF/Process-coupons",
+    "notes": "Joggle coupon virtualZ40..52,offset6; opposed angles26.5651deg; Ri2.25 K0.4; flat bendaxes v=39.775442927 /53.096838613 frombottom, along40width. Measure offset, springback and developedheight after actual tooling/finish."
+  },
+  {
+    "id": "QC06-wrap-joggle",
+    "quantity": 1,
+    "thickness_mm": 1.0,
+    "material": "mild steel",
+    "folder": "DXF/Process-coupons",
+    "notes": "Joggle coupon virtualZ40..52,offset4; opposed angles18.4349deg; Ri1 K0.42; flat bendaxes v=39.903887573 /52.523051021 frombottom, along40width. Measure offset, springback and developedheight after actual tooling/finish."
+  },
+  {
+    "id": "GSK01-fascia-gasket",
+    "quantity": 1,
+    "thickness_mm": 0.5,
+    "material": "closed-cell elastomer",
+    "folder": "DXF/Ancillary-cuts",
+    "notes": "Quantity1;0.5mm nominal compression gasket, outer46x168/inner42x164 concentric capsule; captured, not structural adhesive. Match actual finish/compression."
+  },
+  {
+    "id": "SH01-side-head-shim",
+    "quantity": 10,
+    "thickness_mm": 0.2,
+    "material": "conductive compatible shim stock",
+    "folder": "DXF/Ancillary-cuts",
+    "notes": "Quantity10;\u00d88x\u00d83.4x0.2 nominal; cut or buy equivalent. Stack closes0.2gap above RRE03-1 head. Fit finished stack without moving side outer planes; corrosion/contact treatment gate."
+  }
+]

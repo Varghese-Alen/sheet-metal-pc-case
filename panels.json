@@ -1,0 +1,3099 @@
+[
+  {
+    "id": "S01-S02",
+    "label": "S01 \u2014 Sand sled right / radiused joggle",
+    "object": "P0",
+    "quantity": 2,
+    "material": "5052-H32 aluminium",
+    "thickness_mm": 1.5,
+    "flat_bounds": [
+      -205.0,
+      0.0,
+      205.0,
+      521.2263835063059
+    ],
+    "flat_size_mm": [
+      410.0,
+      521.2263835063059
+    ],
+    "bends": [
+      {
+        "sequence": 1,
+        "angle_deg": 26.56505117707799,
+        "inside_radius_mm": 2.25,
+        "K": 0.4,
+        "BA_mm": 1.3213956856522975,
+        "tangent_flat_s": 143.11474508437578,
+        "bend_axis_flat_s": 143.77544292720194,
+        "flat_end_s": 144.4361407700281,
+        "tangent_setback_mid_mm": 0.7082039324993691,
+        "axis": "global Y / flat u",
+        "cross_section_midline_virtual_points": [
+          [
+            150.25,
+            0
+          ],
+          [
+            150.25,
+            143.82294901687516
+          ],
+          [
+            144.25,
+            155.82294901687516
+          ],
+          [
+            144.25,
+            520
+          ]
+        ],
+        "straight_segments": [
+          {
+            "a": [
+              150.25,
+              0.0
+            ],
+            "b": [
+              150.25,
+              143.11474508437578
+            ],
+            "start": 0,
+            "length": 143.11474508437578,
+            "tangent": [
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "a": [
+              149.93328157299976,
+              144.45638587087566
+            ],
+            "b": [
+              144.56671842700024,
+              155.18951216287465
+            ],
+            "start": 144.4361407700281,
+            "length": 12.000000000000007,
+            "tangent": [
+              -0.4472135954999598,
+              0.894427190999915
+            ]
+          },
+          {
+            "a": [
+              144.25,
+              156.53115294937453
+            ],
+            "b": [
+              144.25,
+              520.0
+            ],
+            "start": 157.7575364556804,
+            "length": 363.46884705062547,
+            "tangent": [
+              0.0,
+              1.0
+            ]
+          }
+        ],
+        "neutral_total_length_mm": 521.2263835063059,
+        "outside_setback_mm": 0.8852549156242113,
+        "suggested_forming_step": 1,
+        "flat_axis_v_mm": 143.77544292720194,
+        "flat_bend_lines_raw_mm": [
+          [
+            [
+              -205.0,
+              143.77544292720194
+            ],
+            [
+              205.0,
+              143.77544292720194
+            ]
+          ]
+        ],
+        "flat_bend_lines_DXF_mm": [
+          [
+            [
+              0.0,
+              143.77544292720194
+            ],
+            [
+              410.0,
+              143.77544292720194
+            ]
+          ]
+        ]
+      },
+      {
+        "sequence": 2,
+        "angle_deg": -26.56505117707799,
+        "inside_radius_mm": 2.25,
+        "K": 0.4,
+        "BA_mm": 1.3213956856522975,
+        "tangent_flat_s": 156.4361407700281,
+        "bend_axis_flat_s": 157.09683861285424,
+        "flat_end_s": 157.7575364556804,
+        "tangent_setback_mid_mm": 0.7082039324993691,
+        "axis": "global Y / flat u",
+        "cross_section_midline_virtual_points": [
+          [
+            150.25,
+            0
+          ],
+          [
+            150.25,
+            143.82294901687516
+          ],
+          [
+            144.25,
+            155.82294901687516
+          ],
+          [
+            144.25,
+            520
+          ]
+        ],
+        "straight_segments": [
+          {
+            "a": [
+              150.25,
+              0.0
+            ],
+            "b": [
+              150.25,
+              143.11474508437578
+            ],
+            "start": 0,
+            "length": 143.11474508437578,
+            "tangent": [
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "a": [
+              149.93328157299976,
+              144.45638587087566
+            ],
+            "b": [
+              144.56671842700024,
+              155.18951216287465
+            ],
+            "start": 144.4361407700281,
+            "length": 12.000000000000007,
+            "tangent": [
+              -0.4472135954999598,
+              0.894427190999915
+            ]
+          },
+          {
+            "a": [
+              144.25,
+              156.53115294937453
+            ],
+            "b": [
+              144.25,
+              520.0
+            ],
+            "start": 157.7575364556804,
+            "length": 363.46884705062547,
+            "tangent": [
+              0.0,
+              1.0
+            ]
+          }
+        ],
+        "neutral_total_length_mm": 521.2263835063059,
+        "outside_setback_mm": 0.8852549156242113,
+        "suggested_forming_step": 2,
+        "flat_axis_v_mm": 157.09683861285424,
+        "flat_bend_lines_raw_mm": [
+          [
+            [
+              -205.0,
+              157.09683861285424
+            ],
+            [
+              205.0,
+              157.09683861285424
+            ]
+          ]
+        ],
+        "flat_bend_lines_DXF_mm": [
+          [
+            [
+              0.0,
+              157.09683861285424
+            ],
+            [
+              410.0,
+              157.09683861285424
+            ]
+          ]
+        ]
+      }
+    ],
+    "local_axes": "u=global Y; v=developed upward from Z0",
+    "notes": "Same cut blank, opposite fold hands. Native outer outlines, handle and 546 bores retained; upper flat coordinates offset by 1.226383506 mm. Ri2.25 K.40 provisional.",
+    "flat_source": "CAD/Sheet Metal PC Case Flat Patterns.FCStd:S01-S02",
+    "formed_source": "CAD/Sheet Metal PC Case.FCStd:P0",
+    "DXF_origin_mm": [
+      -205.0,
+      0.0
+    ],
+    "status": "UNPROTOTYPED; mandatory shop coupon and component fit qualification"
+  },
+  {
+    "id": "W01",
+    "label": "W01 \u2014 Single charcoal wrap / four main bends and ten downward ears",
+    "object": "P2",
+    "quantity": 1,
+    "material": "mild steel",
+    "thickness_mm": 1,
+    "flat_bounds": [
+      -169.03053078404878,
+      0.0,
+      169.03053078404878,
+      1238.0502778222472
+    ],
+    "flat_size_mm": [
+      338.06106156809756,
+      1238.0502778222472
+    ],
+    "bends": [
+      {
+        "sequence": 1,
+        "axis": "flat v; ear at Y-165 roof",
+        "flat_axis_u": -141.9152653920244,
+        "flat_axis_v_range": [
+          862.0502778222472,
+          878.0502778222472
+        ],
+        "angle_deg": 90,
+        "inside_radius_mm": 1,
+        "K": 0.42,
+        "BA_mm": 2.230530784048753,
+        "fold": "DOWN",
+        "pilot_flat": [
+          -151.03053078404878,
+          870.0502778222472
+        ],
+        "pilot_assembled": [
+          -142.3,
+          -165,
+          448
+        ],
+        "suggested_forming_step": 1,
+        "flat_bend_lines_raw_mm": [
+          [
+            [
+              -141.9152653920244,
+              862.0502778222472
+            ],
+            [
+              -141.9152653920244,
+              878.0502778222472
+            ]
+          ]
+        ],
+        "flat_bend_lines_DXF_mm": [
+          [
+            [
+              27.115265392024384,
+              862.0502778222472
+            ],
+            [
+              27.115265392024384,
+              878.0502778222472
+            ]
+          ]
+        ]
+      },
+      {
+        "sequence": 1,
+        "axis": "flat v; ear at Y-165 floor",
+        "flat_axis_u": -147.9152653920244,
+        "flat_axis_v_range": [
+          360.0,
+          376.0
+        ],
+        "angle_deg": 90,
+        "inside_radius_mm": 1,
+        "K": 0.42,
+        "BA_mm": 2.230530784048753,
+        "fold": "DOWN",
+        "pilot_flat": [
+          -162.03053078404878,
+          368.0
+        ],
+        "pilot_assembled": [
+          -148.3,
+          -165,
+          11
+        ],
+        "suggested_forming_step": 1,
+        "flat_bend_lines_raw_mm": [
+          [
+            [
+              -147.9152653920244,
+              360.0
+            ],
+            [
+              -147.9152653920244,
+              376.0
+            ]
+          ]
+        ],
+        "flat_bend_lines_DXF_mm": [
+          [
+            [
+              21.115265392024384,
+              360.0
+            ],
+            [
+              21.115265392024384,
+              376.0
+            ]
+          ]
+        ]
+      },
+      {
+        "sequence": 1,
+        "axis": "flat v; ear at Y0 roof",
+        "flat_axis_u": -141.9152653920244,
+        "flat_axis_v_range": [
+          1027.0502778222472,
+          1043.0502778222472
+        ],
+        "angle_deg": 90,
+        "inside_radius_mm": 1,
+        "K": 0.42,
+        "BA_mm": 2.230530784048753,
+        "fold": "DOWN",
+        "pilot_flat": [
+          -151.03053078404878,
+          1035.0502778222472
+        ],
+        "pilot_assembled": [
+          -142.3,
+          0,
+          448
+        ],
+        "suggested_forming_step": 1,
+        "flat_bend_lines_raw_mm": [
+          [
+            [
+              -141.9152653920244,
+              1027.0502778222472
+            ],
+            [
+              -141.9152653920244,
+              1043.0502778222472
+            ]
+          ]
+        ],
+        "flat_bend_lines_DXF_mm": [
+          [
+            [
+              27.115265392024384,
+              1027.0502778222472
+            ],
+            [
+              27.115265392024384,
+              1043.0502778222472
+            ]
+          ]
+        ]
+      },
+      {
+        "sequence": 1,
+        "axis": "flat v; ear at Y165 roof",
+        "flat_axis_u": -141.9152653920244,
+        "flat_axis_v_range": [
+          1192.0502778222472,
+          1208.0502778222472
+        ],
+        "angle_deg": 90,
+        "inside_radius_mm": 1,
+        "K": 0.42,
+        "BA_mm": 2.230530784048753,
+        "fold": "DOWN",
+        "pilot_flat": [
+          -151.03053078404878,
+          1200.0502778222472
+        ],
+        "pilot_assembled": [
+          -142.3,
+          165,
+          448
+        ],
+        "suggested_forming_step": 1,
+        "flat_bend_lines_raw_mm": [
+          [
+            [
+              -141.9152653920244,
+              1192.0502778222472
+            ],
+            [
+              -141.9152653920244,
+              1208.0502778222472
+            ]
+          ]
+        ],
+        "flat_bend_lines_DXF_mm": [
+          [
+            [
+              27.115265392024384,
+              1192.0502778222472
+            ],
+            [
+              27.115265392024384,
+              1208.0502778222472
+            ]
+          ]
+        ]
+      },
+      {
+        "sequence": 1,
+        "axis": "flat v; ear at Y165 floor",
+        "flat_axis_u": -147.9152653920244,
+        "flat_axis_v_range": [
+          30.0,
+          46.0
+        ],
+        "angle_deg": 90,
+        "inside_radius_mm": 1,
+        "K": 0.42,
+        "BA_mm": 2.230530784048753,
+        "fold": "DOWN",
+        "pilot_flat": [
+          -162.03053078404878,
+          38.0
+        ],
+        "pilot_assembled": [
+          -148.3,
+          165,
+          11
+        ],
+        "suggested_forming_step": 1,
+        "flat_bend_lines_raw_mm": [
+          [
+            [
+              -147.9152653920244,
+              30.0
+            ],
+            [
+              -147.9152653920244,
+              46.0
+            ]
+          ]
+        ],
+        "flat_bend_lines_DXF_mm": [
+          [
+            [
+              21.115265392024384,
+              30.0
+            ],
+            [
+              21.115265392024384,
+              46.0
+            ]
+          ]
+        ]
+      },
+      {
+        "sequence": 1,
+        "axis": "flat v; ear at Y-165 roof",
+        "flat_axis_u": 141.9152653920244,
+        "flat_axis_v_range": [
+          862.0502778222472,
+          878.0502778222472
+        ],
+        "angle_deg": -90,
+        "inside_radius_mm": 1,
+        "K": 0.42,
+        "BA_mm": 2.230530784048753,
+        "fold": "DOWN",
+        "pilot_flat": [
+          151.03053078404878,
+          870.0502778222472
+        ],
+        "pilot_assembled": [
+          142.3,
+          -165,
+          448
+        ],
+        "suggested_forming_step": 1,
+        "flat_bend_lines_raw_mm": [
+          [
+            [
+              141.9152653920244,
+              862.0502778222472
+            ],
+            [
+              141.9152653920244,
+              878.0502778222472
+            ]
+          ]
+        ],
+        "flat_bend_lines_DXF_mm": [
+          [
+            [
+              310.94579617607315,
+              862.0502778222472
+            ],
+            [
+              310.94579617607315,
+              878.0502778222472
+            ]
+          ]
+        ]
+      },
+      {
+        "sequence": 1,
+        "axis": "flat v; ear at Y-165 floor",
+        "flat_axis_u": 147.9152653920244,
+        "flat_axis_v_range": [
+          360.0,
+          376.0
+        ],
+        "angle_deg": -90,
+        "inside_radius_mm": 1,
+        "K": 0.42,
+        "BA_mm": 2.230530784048753,
+        "fold": "DOWN",
+        "pilot_flat": [
+          162.03053078404878,
+          368.0
+        ],
+        "pilot_assembled": [
+          148.3,
+          -165,
+          11
+        ],
+        "suggested_forming_step": 1,
+        "flat_bend_lines_raw_mm": [
+          [
+            [
+              147.9152653920244,
+              360.0
+            ],
+            [
+              147.9152653920244,
+              376.0
+            ]
+          ]
+        ],
+        "flat_bend_lines_DXF_mm": [
+          [
+            [
+              316.94579617607315,
+              360.0
+            ],
+            [
+              316.94579617607315,
+              376.0
+            ]
+          ]
+        ]
+      },
+      {
+        "sequence": 1,
+        "axis": "flat v; ear at Y0 roof",
+        "flat_axis_u": 141.9152653920244,
+        "flat_axis_v_range": [
+          1027.0502778222472,
+          1043.0502778222472
+        ],
+        "angle_deg": -90,
+        "inside_radius_mm": 1,
+        "K": 0.42,
+        "BA_mm": 2.230530784048753,
+        "fold": "DOWN",
+        "pilot_flat": [
+          151.03053078404878,
+          1035.0502778222472
+        ],
+        "pilot_assembled": [
+          142.3,
+          0,
+          448
+        ],
+        "suggested_forming_step": 1,
+        "flat_bend_lines_raw_mm": [
+          [
+            [
+              141.9152653920244,
+              1027.0502778222472
+            ],
+            [
+              141.9152653920244,
+              1043.0502778222472
+            ]
+          ]
+        ],
+        "flat_bend_lines_DXF_mm": [
+          [
+            [
+              310.94579617607315,
+              1027.0502778222472
+            ],
+            [
+              310.94579617607315,
+              1043.0502778222472
+            ]
+          ]
+        ]
+      },
+      {
+        "sequence": 1,
+        "axis": "flat v; ear at Y165 roof",
+        "flat_axis_u": 141.9152653920244,
+        "flat_axis_v_range": [
+          1192.0502778222472,
+          1208.0502778222472
+        ],
+        "angle_deg": -90,
+        "inside_radius_mm": 1,
+        "K": 0.42,
+        "BA_mm": 2.230530784048753,
+        "fold": "DOWN",
+        "pilot_flat": [
+          151.03053078404878,
+          1200.0502778222472
+        ],
+        "pilot_assembled": [
+          142.3,
+          165,
+          448
+        ],
+        "suggested_forming_step": 1,
+        "flat_bend_lines_raw_mm": [
+          [
+            [
+              141.9152653920244,
+              1192.0502778222472
+            ],
+            [
+              141.9152653920244,
+              1208.0502778222472
+            ]
+          ]
+        ],
+        "flat_bend_lines_DXF_mm": [
+          [
+            [
+              310.94579617607315,
+              1192.0502778222472
+            ],
+            [
+              310.94579617607315,
+              1208.0502778222472
+            ]
+          ]
+        ]
+      },
+      {
+        "sequence": 1,
+        "axis": "flat v; ear at Y165 floor",
+        "flat_axis_u": 147.9152653920244,
+        "flat_axis_v_range": [
+          30.0,
+          46.0
+        ],
+        "angle_deg": -90,
+        "inside_radius_mm": 1,
+        "K": 0.42,
+        "BA_mm": 2.230530784048753,
+        "fold": "DOWN",
+        "pilot_flat": [
+          162.03053078404878,
+          38.0
+        ],
+        "pilot_assembled": [
+          148.3,
+          165,
+          11
+        ],
+        "suggested_forming_step": 1,
+        "flat_bend_lines_raw_mm": [
+          [
+            [
+              147.9152653920244,
+              30.0
+            ],
+            [
+              147.9152653920244,
+              46.0
+            ]
+          ]
+        ],
+        "flat_bend_lines_DXF_mm": [
+          [
+            [
+              316.94579617607315,
+              30.0
+            ],
+            [
+              316.94579617607315,
+              46.0
+            ]
+          ]
+        ]
+      },
+      {
+        "sequence": 1,
+        "angle_deg": -90.0,
+        "inside_radius_mm": 1,
+        "K": 0.42,
+        "BA_mm": 2.230530784048753,
+        "tangent_flat_s": 404.0,
+        "bend_axis_flat_s": 405.11526539202436,
+        "flat_end_s": 406.23053078404877,
+        "tangent_setback_mid_mm": 1.4999999999999998,
+        "axis": "global X / flat u",
+        "cross_section_midline_virtual_points": [
+          [
+            203,
+            25.5
+          ],
+          [
+            -202.5,
+            25.5
+          ],
+          [
+            -202.5,
+            143.9188611699158
+          ],
+          [
+            -198.5,
+            155.9188611699158
+          ],
+          [
+            -198.5,
+            457.5
+          ],
+          [
+            203,
+            457.5
+          ]
+        ],
+        "straight_segments": [
+          {
+            "a": [
+              203.0,
+              25.5
+            ],
+            "b": [
+              -201.0,
+              25.5
+            ],
+            "start": 0,
+            "length": 404.0,
+            "tangent": [
+              -1.0,
+              0.0
+            ]
+          },
+          {
+            "a": [
+              -202.5,
+              27.0
+            ],
+            "b": [
+              -202.5,
+              143.67544467966323
+            ],
+            "start": 406.23053078404877,
+            "length": 116.67544467966323,
+            "tangent": [
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "a": [
+              -202.42302494707576,
+              144.1497863286885
+            ],
+            "b": [
+              -198.57697505292424,
+              155.6879360111431
+            ],
+            "start": 523.3628612509552,
+            "length": 12.162277660168366,
+            "tangent": [
+              0.3162277660168365,
+              0.9486832980505142
+            ]
+          },
+          {
+            "a": [
+              -198.5,
+              156.16227766016837
+            ],
+            "b": [
+              -198.5,
+              456.0
+            ],
+            "start": 535.9820246983668,
+            "length": 299.83772233983166,
+            "tangent": [
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "a": [
+              -197.0,
+              457.5
+            ],
+            "b": [
+              203.0,
+              457.5
+            ],
+            "start": 838.0502778222472,
+            "length": 400.0,
+            "tangent": [
+              1.0,
+              0.0
+            ]
+          }
+        ],
+        "neutral_total_length_mm": 1238.0502778222472,
+        "outside_setback_mm": 1.9999999999999998,
+        "suggested_forming_step": 4,
+        "flat_axis_v_mm": 405.11526539202436,
+        "flat_bend_lines_raw_mm": [
+          [
+            [
+              -149,
+              405.11526539202436
+            ],
+            [
+              149,
+              405.11526539202436
+            ]
+          ]
+        ],
+        "flat_bend_lines_DXF_mm": [
+          [
+            [
+              20.03053078404878,
+              405.11526539202436
+            ],
+            [
+              318.0305307840488,
+              405.11526539202436
+            ]
+          ]
+        ]
+      },
+      {
+        "sequence": 2,
+        "angle_deg": -18.43494882292201,
+        "inside_radius_mm": 1,
+        "K": 0.42,
+        "BA_mm": 0.45688578724323187,
+        "tangent_flat_s": 522.905975463712,
+        "bend_axis_flat_s": 523.1344183573336,
+        "flat_end_s": 523.3628612509552,
+        "tangent_setback_mid_mm": 0.243416490252569,
+        "axis": "global X / flat u",
+        "cross_section_midline_virtual_points": [
+          [
+            203,
+            25.5
+          ],
+          [
+            -202.5,
+            25.5
+          ],
+          [
+            -202.5,
+            143.9188611699158
+          ],
+          [
+            -198.5,
+            155.9188611699158
+          ],
+          [
+            -198.5,
+            457.5
+          ],
+          [
+            203,
+            457.5
+          ]
+        ],
+        "straight_segments": [
+          {
+            "a": [
+              203.0,
+              25.5
+            ],
+            "b": [
+              -201.0,
+              25.5
+            ],
+            "start": 0,
+            "length": 404.0,
+            "tangent": [
+              -1.0,
+              0.0
+            ]
+          },
+          {
+            "a": [
+              -202.5,
+              27.0
+            ],
+            "b": [
+              -202.5,
+              143.67544467966323
+            ],
+            "start": 406.23053078404877,
+            "length": 116.67544467966323,
+            "tangent": [
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "a": [
+              -202.42302494707576,
+              144.1497863286885
+            ],
+            "b": [
+              -198.57697505292424,
+              155.6879360111431
+            ],
+            "start": 523.3628612509552,
+            "length": 12.162277660168366,
+            "tangent": [
+              0.3162277660168365,
+              0.9486832980505142
+            ]
+          },
+          {
+            "a": [
+              -198.5,
+              156.16227766016837
+            ],
+            "b": [
+              -198.5,
+              456.0
+            ],
+            "start": 535.9820246983668,
+            "length": 299.83772233983166,
+            "tangent": [
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "a": [
+              -197.0,
+              457.5
+            ],
+            "b": [
+              203.0,
+              457.5
+            ],
+            "start": 838.0502778222472,
+            "length": 400.0,
+            "tangent": [
+              1.0,
+              0.0
+            ]
+          }
+        ],
+        "neutral_total_length_mm": 1238.0502778222472,
+        "outside_setback_mm": 0.32455532033675866,
+        "suggested_forming_step": 2,
+        "flat_axis_v_mm": 523.1344183573336,
+        "flat_bend_lines_raw_mm": [
+          [
+            [
+              -149,
+              523.1344183573336
+            ],
+            [
+              149,
+              523.1344183573336
+            ]
+          ]
+        ],
+        "flat_bend_lines_DXF_mm": [
+          [
+            [
+              20.03053078404878,
+              523.1344183573336
+            ],
+            [
+              318.0305307840488,
+              523.1344183573336
+            ]
+          ]
+        ]
+      },
+      {
+        "sequence": 3,
+        "angle_deg": 18.43494882292201,
+        "inside_radius_mm": 1,
+        "K": 0.42,
+        "BA_mm": 0.45688578724323187,
+        "tangent_flat_s": 535.5251389111236,
+        "bend_axis_flat_s": 535.7535818047452,
+        "flat_end_s": 535.9820246983668,
+        "tangent_setback_mid_mm": 0.243416490252569,
+        "axis": "global X / flat u",
+        "cross_section_midline_virtual_points": [
+          [
+            203,
+            25.5
+          ],
+          [
+            -202.5,
+            25.5
+          ],
+          [
+            -202.5,
+            143.9188611699158
+          ],
+          [
+            -198.5,
+            155.9188611699158
+          ],
+          [
+            -198.5,
+            457.5
+          ],
+          [
+            203,
+            457.5
+          ]
+        ],
+        "straight_segments": [
+          {
+            "a": [
+              203.0,
+              25.5
+            ],
+            "b": [
+              -201.0,
+              25.5
+            ],
+            "start": 0,
+            "length": 404.0,
+            "tangent": [
+              -1.0,
+              0.0
+            ]
+          },
+          {
+            "a": [
+              -202.5,
+              27.0
+            ],
+            "b": [
+              -202.5,
+              143.67544467966323
+            ],
+            "start": 406.23053078404877,
+            "length": 116.67544467966323,
+            "tangent": [
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "a": [
+              -202.42302494707576,
+              144.1497863286885
+            ],
+            "b": [
+              -198.57697505292424,
+              155.6879360111431
+            ],
+            "start": 523.3628612509552,
+            "length": 12.162277660168366,
+            "tangent": [
+              0.3162277660168365,
+              0.9486832980505142
+            ]
+          },
+          {
+            "a": [
+              -198.5,
+              156.16227766016837
+            ],
+            "b": [
+              -198.5,
+              456.0
+            ],
+            "start": 535.9820246983668,
+            "length": 299.83772233983166,
+            "tangent": [
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "a": [
+              -197.0,
+              457.5
+            ],
+            "b": [
+              203.0,
+              457.5
+            ],
+            "start": 838.0502778222472,
+            "length": 400.0,
+            "tangent": [
+              1.0,
+              0.0
+            ]
+          }
+        ],
+        "neutral_total_length_mm": 1238.0502778222472,
+        "outside_setback_mm": 0.32455532033675866,
+        "suggested_forming_step": 3,
+        "flat_axis_v_mm": 535.7535818047452,
+        "flat_bend_lines_raw_mm": [
+          [
+            [
+              -143,
+              535.7535818047452
+            ],
+            [
+              143,
+              535.7535818047452
+            ]
+          ]
+        ],
+        "flat_bend_lines_DXF_mm": [
+          [
+            [
+              26.03053078404878,
+              535.7535818047452
+            ],
+            [
+              312.0305307840488,
+              535.7535818047452
+            ]
+          ]
+        ]
+      },
+      {
+        "sequence": 4,
+        "angle_deg": -90.0,
+        "inside_radius_mm": 1,
+        "K": 0.42,
+        "BA_mm": 2.230530784048753,
+        "tangent_flat_s": 835.8197470381984,
+        "bend_axis_flat_s": 836.9350124302229,
+        "flat_end_s": 838.0502778222472,
+        "tangent_setback_mid_mm": 1.4999999999999998,
+        "axis": "global X / flat u",
+        "cross_section_midline_virtual_points": [
+          [
+            203,
+            25.5
+          ],
+          [
+            -202.5,
+            25.5
+          ],
+          [
+            -202.5,
+            143.9188611699158
+          ],
+          [
+            -198.5,
+            155.9188611699158
+          ],
+          [
+            -198.5,
+            457.5
+          ],
+          [
+            203,
+            457.5
+          ]
+        ],
+        "straight_segments": [
+          {
+            "a": [
+              203.0,
+              25.5
+            ],
+            "b": [
+              -201.0,
+              25.5
+            ],
+            "start": 0,
+            "length": 404.0,
+            "tangent": [
+              -1.0,
+              0.0
+            ]
+          },
+          {
+            "a": [
+              -202.5,
+              27.0
+            ],
+            "b": [
+              -202.5,
+              143.67544467966323
+            ],
+            "start": 406.23053078404877,
+            "length": 116.67544467966323,
+            "tangent": [
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "a": [
+              -202.42302494707576,
+              144.1497863286885
+            ],
+            "b": [
+              -198.57697505292424,
+              155.6879360111431
+            ],
+            "start": 523.3628612509552,
+            "length": 12.162277660168366,
+            "tangent": [
+              0.3162277660168365,
+              0.9486832980505142
+            ]
+          },
+          {
+            "a": [
+              -198.5,
+              156.16227766016837
+            ],
+            "b": [
+              -198.5,
+              456.0
+            ],
+            "start": 535.9820246983668,
+            "length": 299.83772233983166,
+            "tangent": [
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "a": [
+              -197.0,
+              457.5
+            ],
+            "b": [
+              203.0,
+              457.5
+            ],
+            "start": 838.0502778222472,
+            "length": 400.0,
+            "tangent": [
+              1.0,
+              0.0
+            ]
+          }
+        ],
+        "neutral_total_length_mm": 1238.0502778222472,
+        "outside_setback_mm": 1.9999999999999998,
+        "suggested_forming_step": 5,
+        "flat_axis_v_mm": 836.9350124302229,
+        "flat_bend_lines_raw_mm": [
+          [
+            [
+              -143,
+              836.9350124302229
+            ],
+            [
+              143,
+              836.9350124302229
+            ]
+          ]
+        ],
+        "flat_bend_lines_DXF_mm": [
+          [
+            [
+              26.03053078404878,
+              836.9350124302229
+            ],
+            [
+              312.0305307840488,
+              836.9350124302229
+            ]
+          ]
+        ]
+      }
+    ],
+    "local_axes": "u=global X; v follows floor rear to front, then upward, then roof toward rear",
+    "notes": "Ri1 K.42 provisional. Main shell external front planes -203/-199, floor25, roof458 unchanged. Width298 to286 tapers6mm each side only along the straight joggle web; exact tangent-coordinate trapezoid, not a projection. First joggle bend298wide, second286; no open corner-relief gap. Ears preform before main bends; roof ears DOWN. 0.7 mm side gap. Two \u00d83.4 pod-carrier screw holes atX68/132,Z336; ordinary exterior black M3heads within main depth envelope; no studs/welding.",
+    "flat_source": "CAD/Sheet Metal PC Case Flat Patterns.FCStd:W01",
+    "formed_source": "CAD/Sheet Metal PC Case.FCStd:P2",
+    "DXF_origin_mm": [
+      -169.03053078404878,
+      0.0
+    ],
+    "status": "UNPROTOTYPED; mandatory shop coupon and component fit qualification"
+  },
+  {
+    "id": "I01",
+    "label": "I01 \u2014 Full 2C / 2A / stereo audio / power fascia",
+    "object": "P4",
+    "quantity": 1,
+    "material": "aluminium",
+    "thickness_mm": 1,
+    "flat_bounds": [
+      77.0,
+      252.0,
+      123.0,
+      420.0
+    ],
+    "flat_size_mm": [
+      46.0,
+      168.0
+    ],
+    "bends": [],
+    "local_axes": "u=global X; v=global Z; visible plane Y-197.5",
+    "notes": "1mm aluminium, FINISHED thickness strictly <1.2mm at audio. Designer access C14x8R2,A20x12R1; not manufacturer cut recommendations. C hood <=12.2x6.4/A <=18x10 prototype access test. Audio supplier \u00d86.1, power unchanged \u00d812.1. Port centresX100,Z400/380/360/337/316/281. Alternative C1 blanks lowerC; power-only and fullyblank are mutually exclusive alternatives.",
+    "flat_source": "CAD/Sheet Metal PC Case Flat Patterns.FCStd:I01",
+    "formed_source": "CAD/Sheet Metal PC Case.FCStd:P4",
+    "DXF_origin_mm": [
+      77.0,
+      252.0
+    ],
+    "status": "UNPROTOTYPED; mandatory shop coupon and component fit qualification",
+    "axes": "u=global X; v=global Z; visible plane Y-197.5"
+  },
+  {
+    "id": "C01",
+    "label": "C01 \u2014 Rear to floor angle",
+    "object": "Detail066",
+    "quantity": 1,
+    "material": "mild steel",
+    "thickness_mm": 1,
+    "flat_bounds": [
+      -10.0,
+      0.0,
+      10.0,
+      38.23053078404875
+    ],
+    "flat_size_mm": [
+      20.0,
+      38.23053078404875
+    ],
+    "bends": [
+      {
+        "sequence": 1,
+        "angle_deg": 90.0,
+        "inside_radius_mm": 1,
+        "K": 0.42,
+        "BA_mm": 2.230530784048753,
+        "tangent_flat_s": 18.0,
+        "bend_axis_flat_s": 19.115265392024376,
+        "flat_end_s": 20.230530784048753,
+        "tangent_setback_mid_mm": 1.4999999999999998,
+        "axis": "global X / flat u",
+        "cross_section_midline_virtual_points": [
+          [
+            182,
+            26.5
+          ],
+          [
+            201.5,
+            26.5
+          ],
+          [
+            201.5,
+            46
+          ]
+        ],
+        "straight_segments": [
+          {
+            "a": [
+              182.0,
+              26.5
+            ],
+            "b": [
+              200.0,
+              26.5
+            ],
+            "start": 0,
+            "length": 18.0,
+            "tangent": [
+              1.0,
+              0.0
+            ]
+          },
+          {
+            "a": [
+              201.5,
+              28.0
+            ],
+            "b": [
+              201.5,
+              46.0
+            ],
+            "start": 20.230530784048753,
+            "length": 18.0,
+            "tangent": [
+              0.0,
+              1.0
+            ]
+          }
+        ],
+        "neutral_total_length_mm": 38.23053078404875,
+        "outside_setback_mm": 1.9999999999999998,
+        "suggested_forming_step": 1,
+        "flat_axis_v_mm": 19.115265392024376,
+        "flat_bend_lines_raw_mm": [
+          [
+            [
+              -10.0,
+              19.115265392024376
+            ],
+            [
+              10.0,
+              19.115265392024376
+            ]
+          ]
+        ],
+        "flat_bend_lines_DXF_mm": [
+          [
+            [
+              0.0,
+              19.115265392024376
+            ],
+            [
+              20.0,
+              19.115265392024376
+            ]
+          ]
+        ]
+      }
+    ],
+    "local_axes": "u=X-center; v=from Y182 toward rear then along Z",
+    "notes": "One M3 on each leg, through bolts and accessible nuts. Ri1 K.42.",
+    "flat_source": "CAD/Sheet Metal PC Case Flat Patterns.FCStd:C01",
+    "formed_source": "CAD/Sheet Metal PC Case.FCStd:Detail066",
+    "DXF_origin_mm": [
+      -10.0,
+      0.0
+    ],
+    "status": "UNPROTOTYPED; mandatory shop coupon and component fit qualification"
+  },
+  {
+    "id": "C02",
+    "label": "C02 \u2014 Rear to floor angle",
+    "object": "Detail073",
+    "quantity": 1,
+    "material": "mild steel",
+    "thickness_mm": 1,
+    "flat_bounds": [
+      -10.0,
+      0.0,
+      10.0,
+      38.23053078404875
+    ],
+    "flat_size_mm": [
+      20.0,
+      38.23053078404875
+    ],
+    "bends": [
+      {
+        "sequence": 1,
+        "angle_deg": 90.0,
+        "inside_radius_mm": 1,
+        "K": 0.42,
+        "BA_mm": 2.230530784048753,
+        "tangent_flat_s": 18.0,
+        "bend_axis_flat_s": 19.115265392024376,
+        "flat_end_s": 20.230530784048753,
+        "tangent_setback_mid_mm": 1.4999999999999998,
+        "axis": "global X / flat u",
+        "cross_section_midline_virtual_points": [
+          [
+            182,
+            26.5
+          ],
+          [
+            201.5,
+            26.5
+          ],
+          [
+            201.5,
+            46
+          ]
+        ],
+        "straight_segments": [
+          {
+            "a": [
+              182.0,
+              26.5
+            ],
+            "b": [
+              200.0,
+              26.5
+            ],
+            "start": 0,
+            "length": 18.0,
+            "tangent": [
+              1.0,
+              0.0
+            ]
+          },
+          {
+            "a": [
+              201.5,
+              28.0
+            ],
+            "b": [
+              201.5,
+              46.0
+            ],
+            "start": 20.230530784048753,
+            "length": 18.0,
+            "tangent": [
+              0.0,
+              1.0
+            ]
+          }
+        ],
+        "neutral_total_length_mm": 38.23053078404875,
+        "outside_setback_mm": 1.9999999999999998,
+        "suggested_forming_step": 1,
+        "flat_axis_v_mm": 19.115265392024376,
+        "flat_bend_lines_raw_mm": [
+          [
+            [
+              -10.0,
+              19.115265392024376
+            ],
+            [
+              10.0,
+              19.115265392024376
+            ]
+          ]
+        ],
+        "flat_bend_lines_DXF_mm": [
+          [
+            [
+              0.0,
+              19.115265392024376
+            ],
+            [
+              20.0,
+              19.115265392024376
+            ]
+          ]
+        ]
+      }
+    ],
+    "local_axes": "u=X-center; v=from Y182 toward rear then along Z",
+    "notes": "One M3 on each leg, through bolts and accessible nuts. Ri1 K.42.",
+    "flat_source": "CAD/Sheet Metal PC Case Flat Patterns.FCStd:C02",
+    "formed_source": "CAD/Sheet Metal PC Case.FCStd:Detail073",
+    "DXF_origin_mm": [
+      -10.0,
+      0.0
+    ],
+    "status": "UNPROTOTYPED; mandatory shop coupon and component fit qualification"
+  },
+  {
+    "id": "C03",
+    "label": "C03 \u2014 Rear to roof angle",
+    "object": "Detail080",
+    "quantity": 1,
+    "material": "mild steel",
+    "thickness_mm": 1,
+    "flat_bounds": [
+      -10.0,
+      0.0,
+      10.0,
+      38.23053078404875
+    ],
+    "flat_size_mm": [
+      20.0,
+      38.23053078404875
+    ],
+    "bends": [
+      {
+        "sequence": 1,
+        "angle_deg": -90.0,
+        "inside_radius_mm": 1,
+        "K": 0.42,
+        "BA_mm": 2.230530784048753,
+        "tangent_flat_s": 18.0,
+        "bend_axis_flat_s": 19.115265392024376,
+        "flat_end_s": 20.230530784048753,
+        "tangent_setback_mid_mm": 1.4999999999999998,
+        "axis": "global X / flat u",
+        "cross_section_midline_virtual_points": [
+          [
+            182,
+            456.5
+          ],
+          [
+            201.5,
+            456.5
+          ],
+          [
+            201.5,
+            437
+          ]
+        ],
+        "straight_segments": [
+          {
+            "a": [
+              182.0,
+              456.5
+            ],
+            "b": [
+              200.0,
+              456.5
+            ],
+            "start": 0,
+            "length": 18.0,
+            "tangent": [
+              1.0,
+              0.0
+            ]
+          },
+          {
+            "a": [
+              201.5,
+              455.0
+            ],
+            "b": [
+              201.5,
+              437.0
+            ],
+            "start": 20.230530784048753,
+            "length": 18.0,
+            "tangent": [
+              0.0,
+              -1.0
+            ]
+          }
+        ],
+        "neutral_total_length_mm": 38.23053078404875,
+        "outside_setback_mm": 1.9999999999999998,
+        "suggested_forming_step": 1,
+        "flat_axis_v_mm": 19.115265392024376,
+        "flat_bend_lines_raw_mm": [
+          [
+            [
+              -10.0,
+              19.115265392024376
+            ],
+            [
+              10.0,
+              19.115265392024376
+            ]
+          ]
+        ],
+        "flat_bend_lines_DXF_mm": [
+          [
+            [
+              0.0,
+              19.115265392024376
+            ],
+            [
+              20.0,
+              19.115265392024376
+            ]
+          ]
+        ]
+      }
+    ],
+    "local_axes": "u=X-center; v=from Y182 toward rear then along Z",
+    "notes": "One M3 on each leg, through bolts and accessible nuts. Ri1 K.42.",
+    "flat_source": "CAD/Sheet Metal PC Case Flat Patterns.FCStd:C03",
+    "formed_source": "CAD/Sheet Metal PC Case.FCStd:Detail080",
+    "DXF_origin_mm": [
+      -10.0,
+      0.0
+    ],
+    "status": "UNPROTOTYPED; mandatory shop coupon and component fit qualification"
+  },
+  {
+    "id": "C04",
+    "label": "C04 \u2014 Rear to roof angle",
+    "object": "Detail087",
+    "quantity": 1,
+    "material": "mild steel",
+    "thickness_mm": 1,
+    "flat_bounds": [
+      -10.0,
+      0.0,
+      10.0,
+      38.23053078404875
+    ],
+    "flat_size_mm": [
+      20.0,
+      38.23053078404875
+    ],
+    "bends": [
+      {
+        "sequence": 1,
+        "angle_deg": -90.0,
+        "inside_radius_mm": 1,
+        "K": 0.42,
+        "BA_mm": 2.230530784048753,
+        "tangent_flat_s": 18.0,
+        "bend_axis_flat_s": 19.115265392024376,
+        "flat_end_s": 20.230530784048753,
+        "tangent_setback_mid_mm": 1.4999999999999998,
+        "axis": "global X / flat u",
+        "cross_section_midline_virtual_points": [
+          [
+            182,
+            456.5
+          ],
+          [
+            201.5,
+            456.5
+          ],
+          [
+            201.5,
+            437
+          ]
+        ],
+        "straight_segments": [
+          {
+            "a": [
+              182.0,
+              456.5
+            ],
+            "b": [
+              200.0,
+              456.5
+            ],
+            "start": 0,
+            "length": 18.0,
+            "tangent": [
+              1.0,
+              0.0
+            ]
+          },
+          {
+            "a": [
+              201.5,
+              455.0
+            ],
+            "b": [
+              201.5,
+              437.0
+            ],
+            "start": 20.230530784048753,
+            "length": 18.0,
+            "tangent": [
+              0.0,
+              -1.0
+            ]
+          }
+        ],
+        "neutral_total_length_mm": 38.23053078404875,
+        "outside_setback_mm": 1.9999999999999998,
+        "suggested_forming_step": 1,
+        "flat_axis_v_mm": 19.115265392024376,
+        "flat_bend_lines_raw_mm": [
+          [
+            [
+              -10.0,
+              19.115265392024376
+            ],
+            [
+              10.0,
+              19.115265392024376
+            ]
+          ]
+        ],
+        "flat_bend_lines_DXF_mm": [
+          [
+            [
+              0.0,
+              19.115265392024376
+            ],
+            [
+              20.0,
+              19.115265392024376
+            ]
+          ]
+        ]
+      }
+    ],
+    "local_axes": "u=X-center; v=from Y182 toward rear then along Z",
+    "notes": "One M3 on each leg, through bolts and accessible nuts. Ri1 K.42.",
+    "flat_source": "CAD/Sheet Metal PC Case Flat Patterns.FCStd:C04",
+    "formed_source": "CAD/Sheet Metal PC Case.FCStd:Detail087",
+    "DXF_origin_mm": [
+      -10.0,
+      0.0
+    ],
+    "status": "UNPROTOTYPED; mandatory shop coupon and component fit qualification"
+  },
+  {
+    "id": "T01",
+    "label": "T01 \u2014 Tray rear service angle",
+    "object": "Detail106",
+    "quantity": 1,
+    "material": "mild steel",
+    "thickness_mm": 1,
+    "flat_bounds": [
+      -8.0,
+      0.0,
+      8.0,
+      29.730530784048753
+    ],
+    "flat_size_mm": [
+      16.0,
+      29.730530784048753
+    ],
+    "bends": [
+      {
+        "sequence": 1,
+        "angle_deg": -90.0,
+        "inside_radius_mm": 1,
+        "K": 0.42,
+        "BA_mm": 2.230530784048753,
+        "tangent_flat_s": 12.5,
+        "bend_axis_flat_s": 13.615265392024376,
+        "flat_end_s": 14.730530784048753,
+        "tangent_setback_mid_mm": 1.4999999999999998,
+        "axis": "global Z / flat u",
+        "cross_section_midline_virtual_points": [
+          [
+            -132,
+            201.5
+          ],
+          [
+            -118,
+            201.5
+          ],
+          [
+            -118,
+            185
+          ]
+        ],
+        "straight_segments": [
+          {
+            "a": [
+              -132.0,
+              201.5
+            ],
+            "b": [
+              -119.5,
+              201.5
+            ],
+            "start": 0,
+            "length": 12.5,
+            "tangent": [
+              1.0,
+              0.0
+            ]
+          },
+          {
+            "a": [
+              -118.0,
+              200.0
+            ],
+            "b": [
+              -118.0,
+              185.0
+            ],
+            "start": 14.730530784048753,
+            "length": 15.0,
+            "tangent": [
+              0.0,
+              -1.0
+            ]
+          }
+        ],
+        "neutral_total_length_mm": 29.730530784048753,
+        "outside_setback_mm": 1.9999999999999998,
+        "suggested_forming_step": 1,
+        "flat_axis_v_mm": 13.615265392024376,
+        "flat_bend_lines_raw_mm": [
+          [
+            [
+              -8.0,
+              13.615265392024376
+            ],
+            [
+              8.0,
+              13.615265392024376
+            ]
+          ]
+        ],
+        "flat_bend_lines_DXF_mm": [
+          [
+            [
+              0.0,
+              13.615265392024376
+            ],
+            [
+              16.0,
+              13.615265392024376
+            ]
+          ]
+        ]
+      }
+    ],
+    "local_axes": "u=Z-center; v cross-section path",
+    "notes": "M3 through fasteners; remove after unplugging rear I/O before tray extraction.",
+    "flat_source": "CAD/Sheet Metal PC Case Flat Patterns.FCStd:T01",
+    "formed_source": "CAD/Sheet Metal PC Case.FCStd:Detail106",
+    "DXF_origin_mm": [
+      -8.0,
+      0.0
+    ],
+    "status": "UNPROTOTYPED; mandatory shop coupon and component fit qualification"
+  },
+  {
+    "id": "T02",
+    "label": "T02 \u2014 Tray rear service angle",
+    "object": "Detail113",
+    "quantity": 1,
+    "material": "mild steel",
+    "thickness_mm": 1,
+    "flat_bounds": [
+      -8.0,
+      0.0,
+      8.0,
+      29.730530784048753
+    ],
+    "flat_size_mm": [
+      16.0,
+      29.730530784048753
+    ],
+    "bends": [
+      {
+        "sequence": 1,
+        "angle_deg": -90.0,
+        "inside_radius_mm": 1,
+        "K": 0.42,
+        "BA_mm": 2.230530784048753,
+        "tangent_flat_s": 12.5,
+        "bend_axis_flat_s": 13.615265392024376,
+        "flat_end_s": 14.730530784048753,
+        "tangent_setback_mid_mm": 1.4999999999999998,
+        "axis": "global Z / flat u",
+        "cross_section_midline_virtual_points": [
+          [
+            -132,
+            201.5
+          ],
+          [
+            -118,
+            201.5
+          ],
+          [
+            -118,
+            185
+          ]
+        ],
+        "straight_segments": [
+          {
+            "a": [
+              -132.0,
+              201.5
+            ],
+            "b": [
+              -119.5,
+              201.5
+            ],
+            "start": 0,
+            "length": 12.5,
+            "tangent": [
+              1.0,
+              0.0
+            ]
+          },
+          {
+            "a": [
+              -118.0,
+              200.0
+            ],
+            "b": [
+              -118.0,
+              185.0
+            ],
+            "start": 14.730530784048753,
+            "length": 15.0,
+            "tangent": [
+              0.0,
+              -1.0
+            ]
+          }
+        ],
+        "neutral_total_length_mm": 29.730530784048753,
+        "outside_setback_mm": 1.9999999999999998,
+        "suggested_forming_step": 1,
+        "flat_axis_v_mm": 13.615265392024376,
+        "flat_bend_lines_raw_mm": [
+          [
+            [
+              -8.0,
+              13.615265392024376
+            ],
+            [
+              8.0,
+              13.615265392024376
+            ]
+          ]
+        ],
+        "flat_bend_lines_DXF_mm": [
+          [
+            [
+              0.0,
+              13.615265392024376
+            ],
+            [
+              16.0,
+              13.615265392024376
+            ]
+          ]
+        ]
+      }
+    ],
+    "local_axes": "u=Z-center; v cross-section path",
+    "notes": "M3 through fasteners; remove after unplugging rear I/O before tray extraction.",
+    "flat_source": "CAD/Sheet Metal PC Case Flat Patterns.FCStd:T02",
+    "formed_source": "CAD/Sheet Metal PC Case.FCStd:Detail113",
+    "DXF_origin_mm": [
+      -8.0,
+      0.0
+    ],
+    "status": "UNPROTOTYPED; mandatory shop coupon and component fit qualification"
+  },
+  {
+    "id": "M02",
+    "label": "M02 \u2014 1mm PCI formed interface with clearance holes",
+    "object": "P5",
+    "quantity": 1,
+    "material": "mild steel",
+    "thickness_mm": 1,
+    "flat_bounds": [
+      125.0,
+      -26.498230784048754,
+      276.0,
+      16.0
+    ],
+    "flat_size_mm": [
+      151.0,
+      42.49823078404876
+    ],
+    "bends": [
+      {
+        "sequence": 1,
+        "angle_deg": 90,
+        "inside_radius_mm": 1,
+        "K": 0.42,
+        "BA_mm": 2.230530784048753,
+        "axis": "global Z; flat u",
+        "bend_axis_flat_v": -1.1152653920243765,
+        "axis_ranges": [
+          [
+            125,
+            134
+          ],
+          [
+            268,
+            276
+          ]
+        ],
+        "suggested_forming_step": 1,
+        "flat_bend_lines_raw_mm": [
+          [
+            [
+              125,
+              -1.1152653920243765
+            ],
+            [
+              134,
+              -1.1152653920243765
+            ]
+          ],
+          [
+            [
+              268,
+              -1.1152653920243765
+            ],
+            [
+              276,
+              -1.1152653920243765
+            ]
+          ]
+        ],
+        "flat_bend_lines_DXF_mm": [
+          [
+            [
+              0.0,
+              25.382965392024378
+            ],
+            [
+              9.0,
+              25.382965392024378
+            ]
+          ],
+          [
+            [
+              143.0,
+              25.382965392024378
+            ],
+            [
+              151.0,
+              25.382965392024378
+            ]
+          ]
+        ]
+      }
+    ],
+    "local_axes": "u=global Z; v=Y-201 on rail web; negative v develops terminal ears",
+    "notes": "Seven source-based retention axes Y206.1148,Z147.4841+n20.32; aperture centres remainZ139.1656+n20.32. End nutstrip fixings Y214,Z130/272 clear retention washers. Outer retentionX2.2323 unchanged. Legacy0.4572setback discrepancy still requires real bracket gauge.",
+    "flat_source": "CAD/Sheet Metal PC Case Flat Patterns.FCStd:M02",
+    "formed_source": "CAD/Sheet Metal PC Case.FCStd:P5",
+    "DXF_origin_mm": [
+      125.0,
+      -26.498230784048754
+    ],
+    "status": "UNPROTOTYPED; mandatory shop coupon and component fit qualification"
+  },
+  {
+    "id": "M03",
+    "label": "M03 \u2014 3mm steel M3 tapped PCI nutstrip",
+    "object": "Detail120",
+    "quantity": 1,
+    "material": "mild steel",
+    "thickness_mm": 3,
+    "flat_bounds": [
+      203.0,
+      125.0,
+      217.0,
+      276.0
+    ],
+    "flat_size_mm": [
+      14.0,
+      151.0
+    ],
+    "bends": [],
+    "local_axes": "u=global Y; v=global Z",
+    "notes": "3mmsteel nutstrip X-1.7677..1.2323,Y203..217,Z125..276. Nine \u00d82.5 pilot holes; finish-drill/tap M3x0.5 afterlaser. Seven source retention axes plus two separated end fixings. No rear-wall penetration.",
+    "flat_source": "CAD/Sheet Metal PC Case Flat Patterns.FCStd:M03",
+    "formed_source": "CAD/Sheet Metal PC Case.FCStd:Detail120",
+    "DXF_origin_mm": [
+      203.0,
+      125.0
+    ],
+    "status": "UNPROTOTYPED; mandatory shop coupon and component fit qualification"
+  },
+  {
+    "id": "F01",
+    "label": "F01 \u2014 Removable120 side fan bridge",
+    "object": "Detail163",
+    "quantity": 1,
+    "material": "mild steel",
+    "thickness_mm": 1,
+    "flat_bounds": [
+      50.0,
+      0.0,
+      170.0,
+      176.23053078404877
+    ],
+    "flat_size_mm": [
+      120.0,
+      176.23053078404877
+    ],
+    "bends": [
+      {
+        "sequence": 1,
+        "angle_deg": -90.0,
+        "inside_radius_mm": 1,
+        "K": 0.42,
+        "BA_mm": 2.230530784048753,
+        "tangent_flat_s": 14.0,
+        "bend_axis_flat_s": 15.115265392024376,
+        "flat_end_s": 16.230530784048753,
+        "tangent_setback_mid_mm": 1.4999999999999998,
+        "axis": "global Y / flat u",
+        "cross_section_midline_virtual_points": [
+          [
+            99,
+            456.5
+          ],
+          [
+            114.5,
+            456.5
+          ],
+          [
+            114.5,
+            295
+          ]
+        ],
+        "straight_segments": [
+          {
+            "a": [
+              99.0,
+              456.5
+            ],
+            "b": [
+              113.0,
+              456.5
+            ],
+            "start": 0,
+            "length": 14.0,
+            "tangent": [
+              1.0,
+              0.0
+            ]
+          },
+          {
+            "a": [
+              114.5,
+              455.0
+            ],
+            "b": [
+              114.5,
+              295.0
+            ],
+            "start": 16.230530784048753,
+            "length": 160.0,
+            "tangent": [
+              0.0,
+              -1.0
+            ]
+          }
+        ],
+        "neutral_total_length_mm": 176.23053078404877,
+        "outside_setback_mm": 1.9999999999999998,
+        "suggested_forming_step": 1,
+        "flat_axis_v_mm": 15.115265392024376,
+        "flat_bend_lines_raw_mm": [
+          [
+            [
+              50.0,
+              15.115265392024376
+            ],
+            [
+              170.0,
+              15.115265392024376
+            ]
+          ]
+        ],
+        "flat_bend_lines_DXF_mm": [
+          [
+            [
+              0.0,
+              15.115265392024376
+            ],
+            [
+              120.0,
+              15.115265392024376
+            ]
+          ]
+        ]
+      }
+    ],
+    "local_axes": "u=Y; v roof inward edge to downward legs",
+    "notes": "Two roof bolts; four105x105 M4 fan fixings. Fan X115..140,3.5mm inboard shift. Cooler tip to frame42.375mm, to bracket41.375mm. Fan frame to rear fan7mm. M4 head projects to143 nominal:0.5mm to sideinside143.5 before finish; verify head and coating.",
+    "flat_source": "CAD/Sheet Metal PC Case Flat Patterns.FCStd:F01",
+    "formed_source": "CAD/Sheet Metal PC Case.FCStd:Detail163",
+    "DXF_origin_mm": [
+      50.0,
+      0.0
+    ],
+    "status": "UNPROTOTYPED; mandatory shop coupon and component fit qualification"
+  },
+  {
+    "id": "I02",
+    "label": "I02 \u2014 Concealed folded carrier / common I03 ladder attachment",
+    "object": "Detail172",
+    "quantity": 1,
+    "material": "mild steel",
+    "thickness_mm": 1,
+    "flat_bounds": [
+      246.0,
+      0.0,
+      426.0,
+      115.4610615680975
+    ],
+    "flat_size_mm": [
+      180.0,
+      115.4610615680975
+    ],
+    "bends": [
+      {
+        "sequence": 1,
+        "angle_deg": 90.0,
+        "inside_radius_mm": 1,
+        "K": 0.42,
+        "BA_mm": 2.230530784048753,
+        "tangent_flat_s": 19.0,
+        "bend_axis_flat_s": 20.115265392024376,
+        "flat_end_s": 21.230530784048753,
+        "tangent_setback_mid_mm": 1.4999999999999998,
+        "axis": "global Z / flat u",
+        "cross_section_midline_virtual_points": [
+          [
+            62,
+            -174.5
+          ],
+          [
+            62,
+            -195
+          ],
+          [
+            138,
+            -195
+          ],
+          [
+            138,
+            -174.5
+          ]
+        ],
+        "straight_segments": [
+          {
+            "a": [
+              62.0,
+              -174.5
+            ],
+            "b": [
+              62.0,
+              -193.5
+            ],
+            "start": 0,
+            "length": 19.0,
+            "tangent": [
+              0.0,
+              -1.0
+            ]
+          },
+          {
+            "a": [
+              63.5,
+              -195.0
+            ],
+            "b": [
+              136.5,
+              -195.0
+            ],
+            "start": 21.230530784048753,
+            "length": 73.0,
+            "tangent": [
+              1.0,
+              0.0
+            ]
+          },
+          {
+            "a": [
+              138.0,
+              -193.5
+            ],
+            "b": [
+              138.0,
+              -174.5
+            ],
+            "start": 96.4610615680975,
+            "length": 19.0,
+            "tangent": [
+              0.0,
+              1.0
+            ]
+          }
+        ],
+        "neutral_total_length_mm": 115.4610615680975,
+        "outside_setback_mm": 1.9999999999999998,
+        "suggested_forming_step": 1,
+        "flat_axis_v_mm": 20.115265392024376,
+        "flat_bend_lines_raw_mm": [
+          [
+            [
+              246.0,
+              20.115265392024376
+            ],
+            [
+              426.0,
+              20.115265392024376
+            ]
+          ]
+        ],
+        "flat_bend_lines_DXF_mm": [
+          [
+            [
+              0.0,
+              20.115265392024376
+            ],
+            [
+              180.0,
+              20.115265392024376
+            ]
+          ]
+        ]
+      },
+      {
+        "sequence": 2,
+        "angle_deg": 90.0,
+        "inside_radius_mm": 1,
+        "K": 0.42,
+        "BA_mm": 2.230530784048753,
+        "tangent_flat_s": 94.23053078404875,
+        "bend_axis_flat_s": 95.34579617607312,
+        "flat_end_s": 96.4610615680975,
+        "tangent_setback_mid_mm": 1.4999999999999998,
+        "axis": "global Z / flat u",
+        "cross_section_midline_virtual_points": [
+          [
+            62,
+            -174.5
+          ],
+          [
+            62,
+            -195
+          ],
+          [
+            138,
+            -195
+          ],
+          [
+            138,
+            -174.5
+          ]
+        ],
+        "straight_segments": [
+          {
+            "a": [
+              62.0,
+              -174.5
+            ],
+            "b": [
+              62.0,
+              -193.5
+            ],
+            "start": 0,
+            "length": 19.0,
+            "tangent": [
+              0.0,
+              -1.0
+            ]
+          },
+          {
+            "a": [
+              63.5,
+              -195.0
+            ],
+            "b": [
+              136.5,
+              -195.0
+            ],
+            "start": 21.230530784048753,
+            "length": 73.0,
+            "tangent": [
+              1.0,
+              0.0
+            ]
+          },
+          {
+            "a": [
+              138.0,
+              -193.5
+            ],
+            "b": [
+              138.0,
+              -174.5
+            ],
+            "start": 96.4610615680975,
+            "length": 19.0,
+            "tangent": [
+              0.0,
+              1.0
+            ]
+          }
+        ],
+        "neutral_total_length_mm": 115.4610615680975,
+        "outside_setback_mm": 1.9999999999999998,
+        "suggested_forming_step": 2,
+        "flat_axis_v_mm": 95.34579617607312,
+        "flat_bend_lines_raw_mm": [
+          [
+            [
+              246.0,
+              95.34579617607312
+            ],
+            [
+              426.0,
+              95.34579617607312
+            ]
+          ]
+        ],
+        "flat_bend_lines_DXF_mm": [
+          [
+            [
+              0.0,
+              95.34579617607312
+            ],
+            [
+              180.0,
+              95.34579617607312
+            ]
+          ]
+        ]
+      }
+    ],
+    "local_axes": "u=global Z; v from left rear return around front to right rear return",
+    "notes": "Existing windowX81..119 Z260..412, returns and shell fixings unchanged. Added4 \u00d83.4 holesX72/128,Z308/386 through front sheet for I03. No welding; existing2 M3x10 shell boltsX68/132 Z336. Existingreturn \u00d83 tieholesX62/138,Y-181/-177,Z300/380 retained for cushioned lacing. Finish/strain-relief qualification required.",
+    "flat_source": "CAD/Sheet Metal PC Case Flat Patterns.FCStd:I02",
+    "formed_source": "CAD/Sheet Metal PC Case.FCStd:Detail172",
+    "DXF_origin_mm": [
+      246.0,
+      0.0
+    ],
+    "status": "UNPROTOTYPED; mandatory shop coupon and component fit qualification",
+    "axes": "u=global Z; v from left rear return around front to right rear return"
+  },
+  {
+    "id": "G01",
+    "label": "G01 \u2014 Optional GPU support post",
+    "object": "Detail187",
+    "quantity": 1,
+    "material": "mild steel",
+    "thickness_mm": 3,
+    "flat_bounds": [
+      -112.0,
+      0.0,
+      -88.0,
+      182.09734457253856
+    ],
+    "flat_size_mm": [
+      24.0,
+      182.09734457253856
+    ],
+    "bends": [
+      {
+        "sequence": 1,
+        "angle_deg": 90.0,
+        "inside_radius_mm": 3,
+        "K": 0.4,
+        "BA_mm": 6.5973445725385655,
+        "tangent_flat_s": 17.5,
+        "bend_axis_flat_s": 20.798672286269284,
+        "flat_end_s": 24.097344572538567,
+        "tangent_setback_mid_mm": 4.499999999999999,
+        "axis": "global Y / flat u",
+        "cross_section_midline_virtual_points": [
+          [
+            96,
+            27.5
+          ],
+          [
+            118,
+            27.5
+          ],
+          [
+            118,
+            190
+          ]
+        ],
+        "straight_segments": [
+          {
+            "a": [
+              96.0,
+              27.5
+            ],
+            "b": [
+              113.5,
+              27.5
+            ],
+            "start": 0,
+            "length": 17.5,
+            "tangent": [
+              1.0,
+              0.0
+            ]
+          },
+          {
+            "a": [
+              118.0,
+              32.0
+            ],
+            "b": [
+              118.0,
+              190.0
+            ],
+            "start": 24.097344572538567,
+            "length": 158.0,
+            "tangent": [
+              0.0,
+              1.0
+            ]
+          }
+        ],
+        "neutral_total_length_mm": 182.09734457253856,
+        "outside_setback_mm": 5.999999999999999,
+        "suggested_forming_step": 1,
+        "flat_axis_v_mm": 20.798672286269284,
+        "flat_bend_lines_raw_mm": [
+          [
+            [
+              -112.0,
+              20.798672286269284
+            ],
+            [
+              -88.0,
+              20.798672286269284
+            ]
+          ]
+        ],
+        "flat_bend_lines_DXF_mm": [
+          [
+            [
+              0.0,
+              20.798672286269284
+            ],
+            [
+              24.0,
+              20.798672286269284
+            ]
+          ]
+        ]
+      }
+    ],
+    "local_axes": "u=Y; v from X96 base toward post then upward",
+    "notes": "3mmsteel Ri3 K.40. Post X116.5..119.5, floorfootX96..119.5 clears bottomfan maxX90 by6mm, PSUmaxX95 by1mm at foot; post21.5mm right of PSU envelope. One continuous54mm floor slot with2bolts for Yadjustment; two vertical slots for ledge. Prototype stiffness/actual GPU contact gate; never load fan shroud blindly.",
+    "flat_source": "CAD/Sheet Metal PC Case Flat Patterns.FCStd:G01",
+    "formed_source": "CAD/Sheet Metal PC Case.FCStd:Detail187",
+    "DXF_origin_mm": [
+      -112.0,
+      0.0
+    ],
+    "status": "UNPROTOTYPED; mandatory shop coupon and component fit qualification"
+  },
+  {
+    "id": "G02",
+    "label": "G02 \u2014 Adjustable GPU ledge",
+    "object": "Detail194",
+    "quantity": 1,
+    "material": "mild steel",
+    "thickness_mm": 3,
+    "flat_bounds": [
+      -110.0,
+      0.0,
+      -90.0,
+      109.09734457253856
+    ],
+    "flat_size_mm": [
+      20.0,
+      109.09734457253856
+    ],
+    "bends": [
+      {
+        "sequence": 1,
+        "angle_deg": -90.0,
+        "inside_radius_mm": 3,
+        "K": 0.4,
+        "BA_mm": 6.5973445725385655,
+        "tangent_flat_s": 70.5,
+        "bend_axis_flat_s": 73.79867228626928,
+        "flat_end_s": 77.09734457253856,
+        "tangent_setback_mid_mm": 4.499999999999999,
+        "axis": "global Y / flat u",
+        "cross_section_midline_virtual_points": [
+          [
+            40,
+            191.5
+          ],
+          [
+            115,
+            191.5
+          ],
+          [
+            115,
+            155
+          ]
+        ],
+        "straight_segments": [
+          {
+            "a": [
+              40.0,
+              191.5
+            ],
+            "b": [
+              110.5,
+              191.5
+            ],
+            "start": 0,
+            "length": 70.5,
+            "tangent": [
+              1.0,
+              0.0
+            ]
+          },
+          {
+            "a": [
+              115.0,
+              187.0
+            ],
+            "b": [
+              115.0,
+              155.0
+            ],
+            "start": 77.09734457253856,
+            "length": 32.0,
+            "tangent": [
+              0.0,
+              -1.0
+            ]
+          }
+        ],
+        "neutral_total_length_mm": 109.09734457253856,
+        "outside_setback_mm": 5.999999999999999,
+        "suggested_forming_step": 1,
+        "flat_axis_v_mm": 73.79867228626928,
+        "flat_bend_lines_raw_mm": [
+          [
+            [
+              -110.0,
+              73.79867228626928
+            ],
+            [
+              -90.0,
+              73.79867228626928
+            ]
+          ]
+        ],
+        "flat_bend_lines_DXF_mm": [
+          [
+            [
+              0.0,
+              73.79867228626928
+            ],
+            [
+              20.0,
+              73.79867228626928
+            ]
+          ]
+        ]
+      }
+    ],
+    "local_axes": "u=Y; v fromX40 ledge tip towardpost then down",
+    "notes": "TopZ193 plus2mm nonconductive pad to GPU undersideZ195; adjust to actual nonfan load-bearing card surface. X40..116.5 below GPU, no entry into35mm cable zone aboveZ195. Remove if unsuitable and fit GPU-maker support.",
+    "flat_source": "CAD/Sheet Metal PC Case Flat Patterns.FCStd:G02",
+    "formed_source": "CAD/Sheet Metal PC Case.FCStd:Detail194",
+    "DXF_origin_mm": [
+      -110.0,
+      0.0
+    ],
+    "status": "UNPROTOTYPED; mandatory shop coupon and component fit qualification"
+  },
+  {
+    "id": "M01",
+    "label": "M01 \u2014 Removable motherboard tray / radiused channel",
+    "object": "P6",
+    "quantity": 1,
+    "material": "mild steel",
+    "thickness_mm": 1,
+    "flat_bounds": [
+      -75.0,
+      0.0,
+      202.0,
+      479.46106156809753
+    ],
+    "flat_size_mm": [
+      277.0,
+      479.46106156809753
+    ],
+    "bends": [
+      {
+        "sequence": 1,
+        "angle_deg": 90.0,
+        "inside_radius_mm": 1,
+        "K": 0.42,
+        "BA_mm": 2.230530784048753,
+        "tangent_flat_s": 24.0,
+        "bend_axis_flat_s": 25.115265392024376,
+        "flat_end_s": 26.230530784048753,
+        "tangent_setback_mid_mm": 1.4999999999999998,
+        "axis": "global Y / flat u",
+        "cross_section_midline_virtual_points": [
+          [
+            -142.5,
+            26.5
+          ],
+          [
+            -117,
+            26.5
+          ],
+          [
+            -117,
+            456.5
+          ],
+          [
+            -142.5,
+            456.5
+          ]
+        ],
+        "straight_segments": [
+          {
+            "a": [
+              -142.5,
+              26.5
+            ],
+            "b": [
+              -118.5,
+              26.5
+            ],
+            "start": 0,
+            "length": 24.0,
+            "tangent": [
+              1.0,
+              0.0
+            ]
+          },
+          {
+            "a": [
+              -117.0,
+              28.0
+            ],
+            "b": [
+              -117.0,
+              455.0
+            ],
+            "start": 26.230530784048753,
+            "length": 427.0,
+            "tangent": [
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "a": [
+              -118.5,
+              456.5
+            ],
+            "b": [
+              -142.5,
+              456.5
+            ],
+            "start": 455.46106156809753,
+            "length": 24.0,
+            "tangent": [
+              -1.0,
+              0.0
+            ]
+          }
+        ],
+        "neutral_total_length_mm": 479.46106156809753,
+        "outside_setback_mm": 1.9999999999999998,
+        "suggested_forming_step": 1,
+        "flat_axis_v_mm": 25.115265392024376,
+        "flat_bend_lines_raw_mm": [
+          [
+            [
+              -75.0,
+              25.115265392024376
+            ],
+            [
+              202.0,
+              25.115265392024376
+            ]
+          ]
+        ],
+        "flat_bend_lines_DXF_mm": [
+          [
+            [
+              0.0,
+              25.115265392024376
+            ],
+            [
+              277.0,
+              25.115265392024376
+            ]
+          ]
+        ]
+      },
+      {
+        "sequence": 2,
+        "angle_deg": 90.0,
+        "inside_radius_mm": 1,
+        "K": 0.42,
+        "BA_mm": 2.230530784048753,
+        "tangent_flat_s": 453.23053078404877,
+        "bend_axis_flat_s": 454.3457961760731,
+        "flat_end_s": 455.46106156809753,
+        "tangent_setback_mid_mm": 1.4999999999999998,
+        "axis": "global Y / flat u",
+        "cross_section_midline_virtual_points": [
+          [
+            -142.5,
+            26.5
+          ],
+          [
+            -117,
+            26.5
+          ],
+          [
+            -117,
+            456.5
+          ],
+          [
+            -142.5,
+            456.5
+          ]
+        ],
+        "straight_segments": [
+          {
+            "a": [
+              -142.5,
+              26.5
+            ],
+            "b": [
+              -118.5,
+              26.5
+            ],
+            "start": 0,
+            "length": 24.0,
+            "tangent": [
+              1.0,
+              0.0
+            ]
+          },
+          {
+            "a": [
+              -117.0,
+              28.0
+            ],
+            "b": [
+              -117.0,
+              455.0
+            ],
+            "start": 26.230530784048753,
+            "length": 427.0,
+            "tangent": [
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "a": [
+              -118.5,
+              456.5
+            ],
+            "b": [
+              -142.5,
+              456.5
+            ],
+            "start": 455.46106156809753,
+            "length": 24.0,
+            "tangent": [
+              -1.0,
+              0.0
+            ]
+          }
+        ],
+        "neutral_total_length_mm": 479.46106156809753,
+        "outside_setback_mm": 1.9999999999999998,
+        "suggested_forming_step": 2,
+        "flat_axis_v_mm": 454.3457961760731,
+        "flat_bend_lines_raw_mm": [
+          [
+            [
+              -75.0,
+              454.3457961760731
+            ],
+            [
+              202.0,
+              454.3457961760731
+            ]
+          ]
+        ],
+        "flat_bend_lines_DXF_mm": [
+          [
+            [
+              0.0,
+              454.3457961760731
+            ],
+            [
+              277.0,
+              454.3457961760731
+            ]
+          ]
+        ]
+      }
+    ],
+    "local_axes": "u=global Y; v follows bottom flange to tray up and across top flange",
+    "notes": "Corrected12 motherboard positions retained. Plain clearance holes: male standoffs secured by nuts; no1mm tapped structure. Fourflange servicebolts plus2rear clips. SSD61.72x76.6 bottomholes, connectorbodyZ300. Ri1 K.42. Disassemble GPU, rear cables and side before tray extraction; see assembly notes.",
+    "flat_source": "CAD/Sheet Metal PC Case Flat Patterns.FCStd:M01",
+    "formed_source": "CAD/Sheet Metal PC Case.FCStd:P6",
+    "DXF_origin_mm": [
+      -75.0,
+      0.0
+    ],
+    "status": "UNPROTOTYPED; mandatory shop coupon and component fit qualification"
+  },
+  {
+    "id": "R01",
+    "label": "R01 \u2014 Rear hardware interface / fastened to wrap and tray",
+    "object": "P3",
+    "quantity": 1,
+    "material": "mild steel",
+    "thickness_mm": 1,
+    "flat_bounds": [
+      -149.0,
+      26.0,
+      149.0,
+      457.0
+    ],
+    "flat_size_mm": [
+      298.0,
+      431.0
+    ],
+    "bends": [],
+    "local_axes": "u=global X; v=global Z",
+    "notes": "RearinnerY202 preserved;1mmsteel ATXI/O interface. Correct handedPSU holes. Added protected\u00d812audio patch exit andM4bondpoint; no PSU modification. Adjacent PCI rail clearance slit X1..4.2,Z124..277 clears ordinaryOD7retention washers; original seven aperture datums unchanged.",
+    "flat_source": "CAD/Sheet Metal PC Case Flat Patterns.FCStd:R01",
+    "formed_source": "CAD/Sheet Metal PC Case.FCStd:P3",
+    "DXF_origin_mm": [
+      -149.0,
+      26.0
+    ],
+    "status": "UNPROTOTYPED; mandatory shop coupon and component fit qualification"
+  },
+  {
+    "id": "I03",
+    "quantity": 1,
+    "material": "mild steel",
+    "thickness_mm": 1,
+    "bends": [],
+    "local_axes": "u=global X; v=global Z",
+    "status": "UNPROTOTYPED; mandatory shop coupon and component fit qualification",
+    "label": "I03 \u2014 Common concealed USB ladder / 1mm steel",
+    "object": "IO",
+    "notes": "68x88x1 steel, X66..134 Z303..391 Y-194.5..-193.5. Central20x2 top notch keeps power tool envelope clear.4attachment\u00d83.4 atX72/128 Z308/386; C mounting\u00d83.4 atX90/110 Z380/360; A atX85/115 Z337/316. Two openedgeR4.5 scallops centredX68/132 Z336 clear retained shellbolt/OD7washer/nut; no new shellholes. All holes cut, deburr; no bends. Flange frontsY-193 using0.5mm washers; no tapped1mm sheet.",
+    "flat_bounds": [
+      65.99999999999999,
+      303.0,
+      134.0,
+      391.0
+    ],
+    "flat_size_mm": [
+      68.00000000000001,
+      88.0
+    ],
+    "DXF_origin_mm": [
+      65.99999999999999,
+      303.0
+    ],
+    "flat_source": "CAD/Sheet Metal PC Case Flat Patterns.FCStd:I03",
+    "formed_source": "CAD/Sheet Metal PC Case.FCStd:IO",
+    "axes": "u=global X; v=global Z"
+  }
+]

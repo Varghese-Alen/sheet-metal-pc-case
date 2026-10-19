@@ -1,0 +1,22 @@
+[
+  {
+    "object": "S01 \u2014 Sand sled right / radiused joggle",
+    "native_volume_mm3": 305164.6793890581,
+    "strip_volume_mm3": 305164.6793890637
+  },
+  {
+    "object": "S02 \u2014 Sand sled left / mirrored fold hand",
+    "native_volume_mm3": 305164.6793890581,
+    "strip_volume_mm3": 305164.6793890637
+  },
+  {
+    "object": "W01 \u2014 Single charcoal wrap / four main bends and ten downward ears",
+    "native_volume_mm3": 341989.37516450504,
+    "strip_volume_mm3": 341989.37516462
+  },
+  {
+    "object": "R01 \u2014 Rear hardware interface / fastened to wrap and tray",
+    "native_volume_mm3": 91230.96302987912,
+    "strip_volume_mm3": 91230.96302988341
+  }
+]

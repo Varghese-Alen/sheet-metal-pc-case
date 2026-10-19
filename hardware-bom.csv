@@ -1,0 +1,92 @@
+description,quantity_shown_or_required,qualification
+9.525mm female-M3 / male-M3x5 standoff,9,ATX installed9. Supply12positions total; install only actual motherboard subset. 9.525 above tray; locknuts supplied separately in BOM. Supplier/dryfit gate.
+Bond lug washer,1,Plain washer M4 OD9 thickness0.8
+Bond stud M4nut,1,ISO4032 nominal M4 nut; AF7 H3.2. Use prevailing-torque equivalent where accessible.
+Bottom fan M4nut,4,ISO4032 nominal M4 nut; AF7 H3.2. Use prevailing-torque equivalent where accessible.
+Bottom fan M4washer,4,Plain washer M4 OD9 thickness0.8
+Bottom140 M4x35,4,ISO7045 nominal pan envelope M4 x35; head Ø7 x3. Verify purchased head and usable thread.
+Dedicated chassis bonding M4x10,1,ISO7045 nominal pan envelope M4 x10; head Ø7 x3. Verify purchased head and usable thread.
+Delock 67234 Type-E Key A male20p to USB-C female,2,"Approx18x15x7 manufacturer listing. One independent supported Type-E header per C; direct host adapter, NOT Y. C1 qty1. Secure cable near header, do not lever PCB header."
+Delock 82941 19p female to two USB-A female 45cm,1,"Manufacturer45cm including connectors, supports two host A ports. Secure both extra mated pairs on cushioned cradle; no dangling couplers. Allocations not exact OEM CAD."
+E-Switch PV0F24011 existing power switch,1,"Unchanged selected power part/geometry/Ø12.1cutout atX100Z400. Use supplied mounting hardware; verify nut/tool and terminal insulation. Power-onlyvariant qty1; fullyblank qty0. Momentary motherboard PWR_SW, not mains."
+FRONTX P0902_036 (P0902-036) 36in stereo panel female to male,1,"36in=914.4mm confirmed supplier page; includes suppliedØ8x1.8ringnut. Ø6.1cut, finishedpanel STRICTLY<1.2. 32+15rearbody. No HD_AUDIO or microphone function."
+Fascia captive compression pad1mm,4,1mm elastomer compression pad captive between fascia and carrier. Contact gate; not a glued structural joint.
+Fascia captive perimeter gasket0.5,1,"0.5mm closed-cell gasket ring46x168 outer/42x164 inner capsule, no structural adhesive. Cage/pads capture fascia against shell. Compression/finish gate."
+GPU contact pad2mm,1,"Nonconductive2mm firm pad, actual card support surface must be identified. No handling/shipping load rating."
+GPU ledge M4nut,2,ISO4032 nominal M4 nut; AF7 H3.2. Use prevailing-torque equivalent where accessible.
+GPU ledge clamp M4x12,2,ISO7045 nominal pan envelope M4 x12; head Ø7 x3. Verify purchased head and usable thread.
+GPU ledge washer,2,Plain washer M4 OD9 thickness0.8
+GPU post floor M4x10,2,ISO7045 nominal pan envelope M4 x10; head Ø7 x3. Verify purchased head and usable thread.
+GPU post floor nut,2,ISO4032 nominal M4 nut; AF7 H3.2. Use prevailing-torque equivalent where accessible.
+GPU post washer,2,Plain washer M4 OD9 thickness0.8
+I/O carrier 2.5mm spacer,2,
+I/O carrier removable M3 nut,2,ISO4032 nominal M3 nut; AF5.5 H2.4. Use prevailing-torque equivalent where accessible.
+I/O carrier washer,2,Plain washer M3 OD7 thickness0.5
+I/O shell M3x10 pan screw,2,Ordinary M3x10 pan screw; headØ5.6x2.4;1wrap+2.5spacer+1carrier+.5washer+2.4nut=7.4;2.6nominaltip. No welding.
+IO I03 attachment M3x6 ISO7380-1,4,Head maxØ5.7x1.65; two1mm sheets+.5washer+2.4plainnut=4.9;1.1nominal tip. Heads behind wrap innerY-198 by0.85.
+IO M3 flat washer OD7 ID3.4 x0.5,12,4 I03 attachments +8 module spacers; thickness controls flangeY-193; verify actual finish stack
+IO M3 plain nut AF5.5 H2.4,4,I03 four attachments only; no thick nyloc substitution without stack review
+IO broad cushioned hook-loop service/connector straps,6,4service-loop retention +2 A mating-pair restraints; lash to carrier return anchors. Secure Type-E cable near actual header using spare nylon ties; never load header with cable weight.
+IO module M3x4 ISO7380-1,8,1plate+.5washer ->2.5nominal embedded-nut engagement. Allowed supplier thread depth NOT published: bottoming/engagement receiving check mandatory. Use factory screws/spacers if needed while maintaining flangeY-193. TR00004815-000 commercially listed.
+IO protective cable sleeves / split abrasion wrap,1,"Cut-to-fit set for I02 lacing, paired couplers and protected external audio run. No sharp edges or fan access; tie locations adjusted to actual cable without changing sheet interfaces."
+IO releasable nylon ties width2.5mm,8,"ExistingI02 Ø3 returnholes: cushioned lacing and strain relief, do not crush cable jacket; no addedpanel holes"
+Newnex U4S5C01C08-010 panel-C female to C male 1m,2,"Commercial passive extension, full CC/VCONN and4SSpairs per drawing. Each C male into independent Delock67234/Type-E host. No Y/legacyA-to-Csocket. No USB-IF chain certification or PD/AltMode/USB4/Thunderbolt claim. C1 variant qty1."
+Newnex USR2-AA-1M panel-A female to A male 1m,2,Catalogue links USR2-A family drawing; receiving variant must match38.5x13.7/30M3pitch. A male connects82941 female; NEVER A-male/A-male cable.
+Optional bracket nut,2,ISO4032 nominal M3 nut; AF5.5 H2.4. Use prevailing-torque equivalent where accessible.
+Optional bracket roof M3x8,2,ISO7045 nominal pan envelope M3 x8; head Ø5.6 x2.4. Verify purchased head and usable thread.
+Optional bracket washer,2,Plain washer M3 OD7 thickness0.5
+Optional fan M4 nut,4,ISO4032 nominal M4 nut; AF7 H3.2. Use prevailing-torque equivalent where accessible.
+Optional fan M4 washer,4,Plain washer M4 OD9 thickness0.8
+Optional fan M4x35,4,ISO7045 nominal pan envelope M4 x35; head Ø7 x3. Verify purchased head and usable thread.
+PCB M3x6 A,1,ISO7045 nominal pan envelope M3 x6; head Ø5.6 x2.4. Verify purchased head and usable thread.
+PCB M3x6 C,1,ISO7045 nominal pan envelope M3 x6; head Ø5.6 x2.4. Verify purchased head and usable thread.
+PCB M3x6 F,1,ISO7045 nominal pan envelope M3 x6; head Ø5.6 x2.4. Verify purchased head and usable thread.
+PCB M3x6 G,1,ISO7045 nominal pan envelope M3 x6; head Ø5.6 x2.4. Verify purchased head and usable thread.
+PCB M3x6 H,1,ISO7045 nominal pan envelope M3 x6; head Ø5.6 x2.4. Verify purchased head and usable thread.
+PCB M3x6 J,1,ISO7045 nominal pan envelope M3 x6; head Ø5.6 x2.4. Verify purchased head and usable thread.
+PCB M3x6 K,1,ISO7045 nominal pan envelope M3 x6; head Ø5.6 x2.4. Verify purchased head and usable thread.
+PCB M3x6 L,1,ISO7045 nominal pan envelope M3 x6; head Ø5.6 x2.4. Verify purchased head and usable thread.
+PCB M3x6 M,1,ISO7045 nominal pan envelope M3 x6; head Ø5.6 x2.4. Verify purchased head and usable thread.
+PCI bracket-notch M3 washer,7,Plain washer M3 OD7 thickness0.5
+PCI nutstrip end M3x5,2,ISO7045 nominal pan envelope M3 x5; head Ø5.6 x2.4. Verify purchased head and usable thread.
+PCI rail to rear M3x10,2,ISO7045 nominal pan envelope M3 x10; head Ø5.6 x2.4. Verify purchased head and usable thread.
+PCI rear 2mm spacer,2,
+PCI rear nut,2,ISO4032 nominal M3 nut; AF5.5 H2.4. Use prevailing-torque equivalent where accessible.
+PCI rear washer,2,Plain washer M3 OD7 thickness0.5
+PCI retention M3x6,7,ISO7045 nominal pan envelope M3 x6; head Ø5.6 x2.4. Verify purchased head and usable thread.
+PSU 8mm blind-M3 support,4,"Bought or machined Ø8x8 boss, blind M3 underside depth6, flat insulating top film ≤0.2 accounted by selected support height. Never drill PSU."
+PSU rear #6-32 x1/4 nominal envelope,4,"#6-32 UNC-2A x1/4 inch, conservativeØ7x3 pan head envelope; verify PSU permitted5.35 penetration."
+PSU support M3x6,4,ISO7045 nominal pan envelope M3 x6; head Ø5.6 x2.4. Verify purchased head and usable thread.
+Purchased standard full-height PCI slot blank covers,7,Standard0.8..1.0mm formed cover with locating tip and ordinary screw notch. NOT a120x18 rectangle. Fit actual cover/GPU bracket to legacy interface gauge before committing rear; remove covers occupied by GPU/controller. Not OEM geometry in model.
+Rear audio grommet nominal12mm panel hole,1,"Split grommet Ø12 panel / nominalID9. Remove grommet, pass plug hood <=11mm through bare deburredØ12 hole, then fit split grommet around cable. Cable OD must suit final grommet; do not force plug throughID9. Reject larger hood unless a controlled matched rear-only redesign is made."
+Rear clip M3x8,4,ISO7045 nominal pan envelope M3 x8; head Ø5.6 x2.4. Verify purchased head and usable thread.
+Rear clip nut,4,ISO4032 nominal M3 nut; AF5.5 H2.4. Use prevailing-torque equivalent where accessible.
+Rear clip washer,4,Plain washer M3 OD7 thickness0.5
+Rear fan M4nut,4,"ISO4032 plain M4 nut, AF7, height3.2mm ONLY for rear M4x30 stack. No thick nyloc/prevailing-torque substitution. Use suitable removable low-strength thread locking and verify the actual finished stack; nominal protrusion is zero."
+Rear fan M4washer,4,Plain washer M4 OD9 thickness0.8
+Rear140 M4x30,4,ISO7045 nominal pan envelope M4 x30; head Ø7 x3. Verify purchased head and usable thread.
+SSD bottom M3x4,4,ISO7045 nominal pan envelope M3 x4; head Ø5.6 x2.4. Verify purchased head and usable thread.
+Side captive RRE03-1,10,"Harrison Silverdale RRE03-1; Ø5 pilot, Ø6x.5 reduced head,1mm grip. Shape is UNSET envelope, installed bulb/mandrel/setting access MUST be coupon-qualified."
+Side captive conductive shim0.2,10,Ø8xØ3.4x0.2 conductive shim over reduced-head insert. Mask contact annuli; final thickness after finish must close0.2gap without dimpling. Verify shop stack; do not alter approved side outer planes.
+Side removable M3x8,10,ISO7045 nominal pan envelope M3 x8; head Ø5.6 x2.4. Verify purchased head and usable thread.
+Standoff locknut A,1,ISO4032 nominal M3 nut; AF5.5 H2.4. Use prevailing-torque equivalent where accessible.
+Standoff locknut C,1,ISO4032 nominal M3 nut; AF5.5 H2.4. Use prevailing-torque equivalent where accessible.
+Standoff locknut F,1,ISO4032 nominal M3 nut; AF5.5 H2.4. Use prevailing-torque equivalent where accessible.
+Standoff locknut G,1,ISO4032 nominal M3 nut; AF5.5 H2.4. Use prevailing-torque equivalent where accessible.
+Standoff locknut H,1,ISO4032 nominal M3 nut; AF5.5 H2.4. Use prevailing-torque equivalent where accessible.
+Standoff locknut J,1,ISO4032 nominal M3 nut; AF5.5 H2.4. Use prevailing-torque equivalent where accessible.
+Standoff locknut K,1,ISO4032 nominal M3 nut; AF5.5 H2.4. Use prevailing-torque equivalent where accessible.
+Standoff locknut L,1,ISO4032 nominal M3 nut; AF5.5 H2.4. Use prevailing-torque equivalent where accessible.
+Standoff locknut M,1,ISO4032 nominal M3 nut; AF5.5 H2.4. Use prevailing-torque equivalent where accessible.
+Tray angle M3x8,2,ISO7045 nominal pan envelope M3 x8; head Ø5.6 x2.4. Verify purchased head and usable thread.
+Tray angle nut,2,ISO4032 nominal M3 nut; AF5.5 H2.4. Use prevailing-torque equivalent where accessible.
+Tray angle washer,2,Plain washer M3 OD7 thickness0.5
+Tray back M3x8,2,ISO7045 nominal pan envelope M3 x8; head Ø5.6 x2.4. Verify purchased head and usable thread.
+Tray back nut,2,ISO4032 nominal M3 nut; AF5.5 H2.4. Use prevailing-torque equivalent where accessible.
+Tray back washer,2,Plain washer M3 OD7 thickness0.5
+Tray service M3x8,4,ISO7045 nominal pan envelope M3 x8; head Ø5.6 x2.4. Verify purchased head and usable thread.
+Tray service nut,4,ISO4032 nominal M3 nut; AF5.5 H2.4. Use prevailing-torque equivalent where accessible.
+Tray service washer,4,Plain washer M3 OD7 thickness0.5
+Wrap clip M3x8,4,ISO7045 nominal pan envelope M3 x8; head Ø5.6 x2.4. Verify purchased head and usable thread.
+Wrap clip nut,4,ISO4032 nominal M3 nut; AF5.5 H2.4. Use prevailing-torque equivalent where accessible.
+Wrap clip washer,4,Plain washer M3 OD7 thickness0.5

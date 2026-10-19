@@ -1,0 +1,134 @@
+{
+  "objects": 287,
+  "solids": 290,
+  "manufactured_instances": 19,
+  "manufactured_valid_single_solids": true,
+  "invalid": [],
+  "bounds": [
+    -153.4,
+    -205.0,
+    0.0,
+    153.4,
+    217.0,
+    520.0
+  ],
+  "size": [
+    306.8,
+    422.0,
+    520.0
+  ],
+  "manufactured_intersections": [
+    {
+      "a": "M03 3mm steel M3 tapped PCI nutstrip",
+      "b": "PCI nutstrip end M3x5",
+      "volume_mm3": 6.479534848028903,
+      "structural_pair": false
+    },
+    {
+      "a": "M03 3mm steel M3 tapped PCI nutstrip",
+      "b": "PCI nutstrip end M3x001",
+      "volume_mm3": 6.479534848028957,
+      "structural_pair": false
+    },
+    {
+      "a": "M03 3mm steel M3 tapped PCI nutstrip",
+      "b": "PCI retention M3x6",
+      "volume_mm3": 6.479534848028896,
+      "structural_pair": false
+    },
+    {
+      "a": "M03 3mm steel M3 tapped PCI nutstrip",
+      "b": "PCI retention M3x001",
+      "volume_mm3": 6.4795348480289,
+      "structural_pair": false
+    },
+    {
+      "a": "M03 3mm steel M3 tapped PCI nutstrip",
+      "b": "PCI retention M3x002",
+      "volume_mm3": 6.479534848028896,
+      "structural_pair": false
+    },
+    {
+      "a": "M03 3mm steel M3 tapped PCI nutstrip",
+      "b": "PCI retention M3x003",
+      "volume_mm3": 6.47953484802889,
+      "structural_pair": false
+    },
+    {
+      "a": "M03 3mm steel M3 tapped PCI nutstrip",
+      "b": "PCI retention M3x004",
+      "volume_mm3": 6.479534848028892,
+      "structural_pair": false
+    },
+    {
+      "a": "M03 3mm steel M3 tapped PCI nutstrip",
+      "b": "PCI retention M3x005",
+      "volume_mm3": 6.47953484802889,
+      "structural_pair": false
+    },
+    {
+      "a": "M03 3mm steel M3 tapped PCI nutstrip",
+      "b": "PCI retention M3x006",
+      "volume_mm3": 6.479534848028959,
+      "structural_pair": false
+    }
+  ],
+  "intentional_thread_intersections": [
+    {
+      "a": "M03 3mm steel M3 tapped PCI nutstrip",
+      "b": "PCI nutstrip end M3x5",
+      "volume_mm3": 6.479534848028903,
+      "structural_pair": false
+    },
+    {
+      "a": "M03 3mm steel M3 tapped PCI nutstrip",
+      "b": "PCI nutstrip end M3x001",
+      "volume_mm3": 6.479534848028957,
+      "structural_pair": false
+    },
+    {
+      "a": "M03 3mm steel M3 tapped PCI nutstrip",
+      "b": "PCI retention M3x6",
+      "volume_mm3": 6.479534848028896,
+      "structural_pair": false
+    },
+    {
+      "a": "M03 3mm steel M3 tapped PCI nutstrip",
+      "b": "PCI retention M3x001",
+      "volume_mm3": 6.4795348480289,
+      "structural_pair": false
+    },
+    {
+      "a": "M03 3mm steel M3 tapped PCI nutstrip",
+      "b": "PCI retention M3x002",
+      "volume_mm3": 6.479534848028896,
+      "structural_pair": false
+    },
+    {
+      "a": "M03 3mm steel M3 tapped PCI nutstrip",
+      "b": "PCI retention M3x003",
+      "volume_mm3": 6.47953484802889,
+      "structural_pair": false
+    },
+    {
+      "a": "M03 3mm steel M3 tapped PCI nutstrip",
+      "b": "PCI retention M3x004",
+      "volume_mm3": 6.479534848028892,
+      "structural_pair": false
+    },
+    {
+      "a": "M03 3mm steel M3 tapped PCI nutstrip",
+      "b": "PCI retention M3x005",
+      "volume_mm3": 6.47953484802889,
+      "structural_pair": false
+    },
+    {
+      "a": "M03 3mm steel M3 tapped PCI nutstrip",
+      "b": "PCI retention M3x006",
+      "volume_mm3": 6.479534848028959,
+      "structural_pair": false
+    }
+  ],
+  "unexpected_intersections": [],
+  "passed": true
+}

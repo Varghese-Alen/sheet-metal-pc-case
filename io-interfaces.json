@@ -1,0 +1,515 @@
+{
+  "schema": 1,
+  "units": "mm",
+  "status": "UNPROTOTYPED subsystem integrated; supplier-envelope allocations are not verified OEM fit",
+  "port_centers_XZ": {
+    "power": [
+      100,
+      400
+    ],
+    "C1": [
+      100,
+      380
+    ],
+    "C2": [
+      100,
+      360
+    ],
+    "A1": [
+      100,
+      337
+    ],
+    "A2": [
+      100,
+      316
+    ],
+    "audio": [
+      100,
+      281
+    ]
+  },
+  "planes_Y": {
+    "fascia_front": -197.5,
+    "fascia_back": -196.5,
+    "I02_front": -195.5,
+    "I02_back_I03_front": -194.5,
+    "I03_back": -193.5,
+    "USB_flange": -193,
+    "C_nose": -196.2,
+    "A_front_reserve": -193
+  },
+  "apertures": {
+    "C": {
+      "width": 14,
+      "height": 8,
+      "radius": 2
+    },
+    "A": {
+      "width": 20,
+      "height": 12,
+      "radius": 1
+    },
+    "audio_diameter": 6.1,
+    "power_diameter": 12.1
+  },
+  "flange": {
+    "C": {
+      "width": 30,
+      "height": 8,
+      "M3_pitch": 20,
+      "rear_depth_including_relief": 37.5,
+      "relief_diameter": 9.3,
+      "nose_forward": 3.2
+    },
+    "A": {
+      "width": 38.5,
+      "height": 13.7,
+      "M3_pitch": 30,
+      "body_rear": 26.5,
+      "rear_including_relief": 36.5,
+      "nose_width": 17.8,
+      "forward_projection_published": false
+    }
+  },
+  "module_objects": [
+    "IO017",
+    "IO024",
+    "IO031",
+    "IO038"
+  ],
+  "nominal_clearances_mm": {
+    "USB_buttonhead_to_fascia_back": 0.35,
+    "I03_attachment_head_to_wrap_inner": 0.85,
+    "C_recess": 1.3,
+    "A_reserve_recess_not_OEM_exact": 4.5
+  },
+  "joints": [
+    {
+      "pair": "I03/I02",
+      "scope": "IOCompletion",
+      "pattern_global_XZ": [
+        [
+          72,
+          308
+        ],
+        [
+          72,
+          386
+        ],
+        [
+          128,
+          308
+        ],
+        [
+          128,
+          386
+        ]
+      ],
+      "hardware": "4 M3x6 ISO7380-1 +4 .5washers +4 M3plainnuts",
+      "stack_mm": [
+        1,
+        1,
+        0.5,
+        2.4
+      ],
+      "nominal_tip_mm": 1.1,
+      "access": "Bench assemble cage/ladder before installing fascia; front heads concealed; open-right-side nut access"
+    },
+    {
+      "pair": "4 Newnex modules/I03",
+      "scope": "IOCompletion",
+      "hardware": "8 M3x4 ISO7380-1 +8 .5washers to embedded supplier M3nuts",
+      "stack_mm": [
+        1,
+        0.5
+      ],
+      "engagement_nominal_mm": 2.5,
+      "access": "Bench front hex key; stripcage for service; actual screw-bottoming/engagement receiving check required"
+    },
+    {
+      "pair": "FRONTX/I01",
+      "scope": "IOCompletion",
+      "hardware": "Supplied ringnut ONLY, thread unspecified",
+      "stack_mm": [
+        1,
+        1.8
+      ],
+      "nominal_thread_tip_mm": 0.2,
+      "access": "Nut fromfront before captured fascia fitted; finishedpanel<1.2"
+    }
+  ],
+  "routes": [
+    {
+      "kind": "C",
+      "z": 380,
+      "start": [
+        100,
+        -155.5,
+        380
+      ],
+      "bend_center": [
+        50,
+        -140,
+        380
+      ],
+      "bend_radius_mm": 50,
+      "loop_center": [
+        0,
+        -140,
+        380
+      ],
+      "loop_radius_mm": 50,
+      "clearance_diameter_mm": 10,
+      "entry_length_mm": 144.03981633974485,
+      "one_loop_length_mm": 235.61944901923448,
+      "lead_length_mm": 1000,
+      "remaining_after_entry_and_one_loop_mm": 620.3407346410206,
+      "status": "Raw1000mm lead budget includes connector ends; deduct85mm C/90mm A designer allowance before planning flexible header tail. Actual end-to-end datum/hood dimensions and board endpoints must be checked; not a measured cable cut length.",
+      "connector_length_deduction_allowance_mm": 85,
+      "remaining_flexible_length_allocation_mm": 535.3407346410206,
+      "loop_angle_degrees": 270,
+      "tail_start": [
+        50,
+        -140,
+        380
+      ]
+    },
+    {
+      "kind": "C",
+      "z": 360,
+      "start": [
+        100,
+        -155.5,
+        360
+      ],
+      "bend_center": [
+        50,
+        -140,
+        360
+      ],
+      "bend_radius_mm": 50,
+      "loop_center": [
+        0,
+        -140,
+        360
+      ],
+      "loop_radius_mm": 50,
+      "clearance_diameter_mm": 10,
+      "entry_length_mm": 144.03981633974485,
+      "one_loop_length_mm": 235.61944901923448,
+      "lead_length_mm": 1000,
+      "remaining_after_entry_and_one_loop_mm": 620.3407346410206,
+      "status": "Raw1000mm lead budget includes connector ends; deduct85mm C/90mm A designer allowance before planning flexible header tail. Actual end-to-end datum/hood dimensions and board endpoints must be checked; not a measured cable cut length.",
+      "connector_length_deduction_allowance_mm": 85,
+      "remaining_flexible_length_allocation_mm": 535.3407346410206,
+      "loop_angle_degrees": 270,
+      "tail_start": [
+        50,
+        -140,
+        360
+      ]
+    },
+    {
+      "kind": "A",
+      "z": 337,
+      "start": [
+        100,
+        -156.5,
+        337
+      ],
+      "bend_center": [
+        50,
+        -140,
+        337
+      ],
+      "bend_radius_mm": 50,
+      "loop_center": [
+        0,
+        -140,
+        337
+      ],
+      "loop_radius_mm": 50,
+      "clearance_diameter_mm": 10,
+      "entry_length_mm": 145.03981633974485,
+      "one_loop_length_mm": 235.61944901923448,
+      "lead_length_mm": 1000,
+      "remaining_after_entry_and_one_loop_mm": 619.3407346410206,
+      "status": "Raw1000mm lead budget includes connector ends; deduct85mm C/90mm A designer allowance before planning flexible header tail. Actual end-to-end datum/hood dimensions and board endpoints must be checked; not a measured cable cut length.",
+      "connector_length_deduction_allowance_mm": 90,
+      "remaining_flexible_length_allocation_mm": 529.3407346410206,
+      "loop_angle_degrees": 270,
+      "tail_start": [
+        50,
+        -140,
+        337
+      ]
+    },
+    {
+      "kind": "A",
+      "z": 316,
+      "start": [
+        100,
+        -156.5,
+        316
+      ],
+      "bend_center": [
+        50,
+        -140,
+        316
+      ],
+      "bend_radius_mm": 50,
+      "loop_center": [
+        0,
+        -140,
+        316
+      ],
+      "loop_radius_mm": 50,
+      "clearance_diameter_mm": 10,
+      "entry_length_mm": 145.03981633974485,
+      "one_loop_length_mm": 235.61944901923448,
+      "lead_length_mm": 1000,
+      "remaining_after_entry_and_one_loop_mm": 619.3407346410206,
+      "status": "Raw1000mm lead budget includes connector ends; deduct85mm C/90mm A designer allowance before planning flexible header tail. Actual end-to-end datum/hood dimensions and board endpoints must be checked; not a measured cable cut length.",
+      "connector_length_deduction_allowance_mm": 90,
+      "remaining_flexible_length_allocation_mm": 529.3407346410206,
+      "loop_angle_degrees": 270,
+      "tail_start": [
+        50,
+        -140,
+        316
+      ]
+    }
+  ],
+  "audio": {
+    "part": "FRONTX P0902_036",
+    "length_mm": 914.4,
+    "body_diameter": 11.5,
+    "body_rear": 32,
+    "relief_length": 15,
+    "finished_panel_limit_exclusive": 1.2,
+    "supplied_nut_diameter": 8,
+    "supplied_nut_thickness": 1.8,
+    "thread_exposed": 3,
+    "rear_hole_diameter": 12,
+    "grommet_nominal_ID": 9,
+    "assembly_maximum_plug_hood_diameter": 11,
+    "thread_specification": "unpublished: use supplied nut"
+  },
+  "variants": [
+    {
+      "fascia": "I01",
+      "C": 2,
+      "A": 2,
+      "audio": 1,
+      "power": 1,
+      "I03": 1,
+      "I03_attachment_screws": 4,
+      "I03_attachment_washers": 4,
+      "I03_attachment_nuts": 4,
+      "module_washers": 8,
+      "Delock67234": 2,
+      "Delock82941": 1,
+      "module_screws": 8
+    },
+    {
+      "fascia": "I01-C1",
+      "C": 1,
+      "A": 2,
+      "audio": 1,
+      "power": 1,
+      "I03": 1,
+      "I03_attachment_screws": 4,
+      "I03_attachment_washers": 4,
+      "I03_attachment_nuts": 4,
+      "module_washers": 6,
+      "Delock67234": 1,
+      "Delock82941": 1,
+      "module_screws": 6,
+      "blank_C2": true
+    },
+    {
+      "fascia": "I01-power-only",
+      "C": 0,
+      "A": 0,
+      "audio": 0,
+      "power": 1,
+      "I03": 0,
+      "I03_attachment_screws": 0,
+      "I03_attachment_washers": 0,
+      "I03_attachment_nuts": 0,
+      "module_washers": 0,
+      "Delock67234": 0,
+      "Delock82941": 0,
+      "module_screws": 0
+    },
+    {
+      "fascia": "I00-fully-blank-option",
+      "C": 0,
+      "A": 0,
+      "audio": 0,
+      "power": 0,
+      "I03": 0,
+      "I03_attachment_screws": 0,
+      "I03_attachment_washers": 0,
+      "I03_attachment_nuts": 0,
+      "module_washers": 0,
+      "Delock67234": 0,
+      "Delock82941": 0,
+      "module_screws": 0
+    }
+  ],
+  "topology": {
+    "C": "Each Newnex male -> Delock67234 Cfemale / Type-E20p male -> independent supported hostType-E. NeverY or legacyA-to-Csocket adapter.",
+    "A": "Each Newnex A male -> one82941 A female -> shared19p header carrying2independent A ports. Never A-male/A-male cable.",
+    "audio": "Stereo3.5male rear-output pass-through; NOT HD_AUDIO/headset mic/amp.",
+    "qualification": "Commercial passive extension/header-adapter architecture; NOT USB-IF certified cable chain or direct harness. Standard5V host only; noPD/AltMode/USB4/Thunderbolt claim. Actual chain speed and bothC orientations require prototype qualification.",
+    "power": "UnchangedPV0F24011 momentary switch -> actual motherboardPWR_SW pins; insulated low-current pair, not mains or USB power."
+  },
+  "sources": [
+    "https://newnex.com/usb-3-panel-mount-cables.php",
+    "https://newnex.com/documents/drawings/U4S5C01C08-010.PDF",
+    "https://newnex.com/documents/USR2-A-Custom-Drawing.PDF",
+    "https://www.ntcdistributing.com/usb-3-0/panel-mount-cables/a-female/usb-3-0-a-female-panel-mount-to-a-male-cable/?sku=USR2-AA-1M",
+    "https://www.delock.com/produkt/67234/pdf.html?sprache=en",
+    "https://www.delock.com/produkt/82941/pdf.html?sprache=en",
+    "https://www.frontx.com/pro/p0902_036.html",
+    "https://www.frontx.com/pro/3.5audio_dimensions.gif",
+    "https://www.trfastenings.com/products/catalogue/screws-and-bolts/Hexagon-Socket-Screws/Button-Head/TR00004815-000"
+  ],
+  "physical_checks": [
+    "Unpublished flange thickness/corner profiles, embeddednut thread depth and selected retailA family match",
+    "Actual hood access/recess and screw finish clearance; verify C<=12.2x6.4,A<=18x10 with rounded aperture corners",
+    "Finishedaudio panel<1.2, suppliednut and actualhood<=11 through bare rear\u00d812 before split grommet",
+    "Actual cable OD/minbend, residual slack, secured adapter/male couplers and board-dependent headers; cableweight must not lever PCBheaders",
+    "USB data enumeration/speed bothC orientations, standard5V current and hotplug; no certification inferred",
+    "Power suppliednut/tool fit near topnotch, tactile access, captive fascia compression; existingPV0F24011 unchanged"
+  ],
+  "common_plate": {
+    "bounds_X_mm": [
+      66,
+      134
+    ],
+    "bounds_Z_mm": [
+      303,
+      391
+    ],
+    "planes_Y_mm": [
+      -194.5,
+      -193.5
+    ],
+    "thickness_mm": 1,
+    "attachment_hole_diameter_mm": 3.4,
+    "attachment_centers_XZ": [
+      [
+        72,
+        308
+      ],
+      [
+        72,
+        386
+      ],
+      [
+        128,
+        308
+      ],
+      [
+        128,
+        386
+      ]
+    ],
+    "top_notch_XZ_bounds": [
+      90,
+      389,
+      110,
+      391
+    ],
+    "retained_cage_joint_scallops": [
+      {
+        "center_XZ": [
+          68,
+          336
+        ],
+        "radius_mm": 4.5,
+        "open_to_outer_edge": true
+      },
+      {
+        "center_XZ": [
+          132,
+          336
+        ],
+        "radius_mm": 4.5,
+        "open_to_outer_edge": true
+      }
+    ],
+    "C_mount_centers_XZ": [
+      [
+        90,
+        380
+      ],
+      [
+        110,
+        380
+      ],
+      [
+        90,
+        360
+      ],
+      [
+        110,
+        360
+      ]
+    ],
+    "A_mount_centers_XZ": [
+      [
+        85,
+        337
+      ],
+      [
+        115,
+        337
+      ],
+      [
+        85,
+        316
+      ],
+      [
+        115,
+        316
+      ]
+    ],
+    "module_hole_diameter_mm": 3.4,
+    "bends": []
+  },
+  "C_orientation_test_matrix": {
+    "per_chain_local_combinations": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        180
+      ],
+      [
+        180,
+        0
+      ],
+      [
+        180,
+        180
+      ]
+    ],
+    "axes": [
+      "rear male to Delock67234",
+      "front user plug"
+    ],
+    "reversible_device_end": "Repeat all four with the device-end orientation reversed when applicable, eight total.",
+    "tests": [
+      "enumeration",
+      "USB2 and SuperSpeed operation",
+      "throughput/error behaviour",
+      "hotplug",
+      "standard5V current within host/component budget"
+    ]
+  }
+}

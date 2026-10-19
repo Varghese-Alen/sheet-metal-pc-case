@@ -1,0 +1,19 @@
+item,quantity,status,notes
+E-Switch PV0F24011,1,production,Includes supplied nut/O-ring; Ø14bezel; PWR_SW only. Confirm stock and exact part.
+Two-wire insulated PWR_SW lead,1,production,Selected motherboard pinout; protect switch terminals; no LED supply/mains wiring.
+"140x140x25 fan,124.5pitch",2,reference target,Select actual retail fans with compatible through holes; bottom/rear stacks in joint schedule. Not included OEM models.
+"120x120x25 fan,105pitch",1,optional,RemovableF01 bracket; X115..140; actual screwhead finish gate.
+"Split grommet forØ12hole,1mmpanel,nominal9clear bore",1,actual supplier fit gate,Pass hood<=11mm through bare deburredØ12 BEFORE fitting split grommet around cable; not plug throughID9. Check actual cable fit.
+2mm nonconductive GPU support pad,1,optional,12x20nominal; actual nonfan loadbearing card contact gate; no loadrating.
+1mm fascia back compression pad2x12,4,production,Captive by carrier; no structural adhesive.
+M3 x 10 pan-head carrier through-bolts,2,included in hardware BOM,"Ordinary bolts through front at X68/132, Z336; existing 2.5mm spacers, washers and nuts. No welding; do not double-count these bolts."
+Full-height standard PCI blank cover,7,production less occupied slots,Also includedhardwareBOM. Buy real formed locatingtip/notch covers; not fake flat rectangles. Physicalgauge mandatory.
+Compatible bonding lug/contact hardware and optional service braids,1,electrical qualification,M4rearpoint; stack/continuity/corrosion test; no PSU modification.
+Newnex U4S5C01C08-010,2,included in hardware BOM; do not double-count,1m panel-C to C male; one independent Delock67234/Type-E host per port. No USB-IF/PD/AltMode/USB4/Thunderbolt claim; actual chain speed and both orientations need qualification.
+Delock 67234,2,included in hardware BOM; do not double-count,"Type-E KeyA20p male to C female, approx18x15x7. One per installed C; C1 variant quantity1. Support cable near header."
+Newnex USR2-AA-1M,2,included in hardware BOM; do not double-count,Individual panel-A to A male. Retail end must match linked USR2-A family38.5x13.7/30M3pitch. Connect to82941 female sockets; no A-male/A-male cable.
+Delock 82941,1,included in hardware BOM; do not double-count,"19pin motherboard header to twoA female,45cm including connectors. Restrain added mating pairs; both ports use independent channels of one two-port host header."
+FRONTX P0902_036 / P0902-036,1,included in hardware BOM; do not double-count,"36in/914.4mm stereo panel female to male; includes supplied nut. Rear-output pass-through, notHD_AUDIO/headset/amp. Ø6.1hole, finishedpanel strictly<1.2; mask bearing seats."
+Releasable nylon ties width2.5mm,8,included in hardware BOM; do not double-count,Existing carrier return holes; cushion all metal edges and support actual header tails without levering sockets.
+Broad cushioned hook-loop straps,6,included in hardware BOM; do not double-count,Four separate service-loop restraints plus two A mating-pair restraints; do not crush data cable jackets.
+Protective sleeves / abrasion wrap,1,included in hardware BOM; do not double-count,"Cut-to-fit set for lacing spine, restrained mating pairs and protected stereo rear run."

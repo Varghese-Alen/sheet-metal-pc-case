@@ -1,0 +1,28 @@
+part,mate,hardware,access,stack_engagement
+S01/S02,W01,10 M3x8 +10 RRE03-1 +10 nominal0.2shims,outsideX,1.5side +.7head/shim gap +1flange; nominal4.8useful engaged thread; coupon-set insert
+W01,R01 via C01..C04,"8 M3x8,8washers,8nuts",roof/floor/rear plus open sides,"two1mm sheets each joint; washer.5,nut2.4;8length leaves3.1nominal beyond nut"
+M01,W01,"4 M3x8,4washers,4nuts","roof/floor exterior, left-side spanner","two1mm sheets; washer.5,nut2.4; not captive; remove leftsled for service"
+M01,R01 via T01/T02,"4 M3x8,4washers,4nuts",rear exterior and component side; nut cable side,"two1mm sheets each; washer.5,nut2.4"
+M02,R01,"2 M3x10,2 two-mm spacers,2washers,2nuts",rear,1back+2spacer+1rail+.5washer+2.4nut=6.9;3.1nominal excess
+M03,M02,2 M3x5 through rail into3mm tapped strip,+X outside rear rail,"1rail+3nutstrip=4; full3engagement,1tip; M3 taps afterlaser"
+purchased PCI cover/GPU bracket,M02/M03,7 M3x6 +7M3washers;7purchased covers,+X rear rail,1nominal cover+.5washer+1rail+3nutstrip=5.5;0.5tip. Notch fit and0.4572datum gauge gate.
+I01,W01/I02,captured0.5gasket +4one-mm pads,removeI02fromrightinterior,"fasciaY-197.5..-196.5; backpads tocarrierY-195.5; cage captures flange, no floatingface"
+I02,W01,"2 M3x10 pan screws,2x2.5spacers,2washers,2nuts",front screwdriver/right-side nut access,1wrap+2.5spacer+1carrier+.5washer+2.4nut=7.4;2.6nominaltip; no welding
+F01,W01,2 M3x8 +washers/nuts,"roof outside, side spanner",1roof+1bracket+.5washer+2.4nut; wholefan/bracket removable
+optional120fan,F01,4 M4x35 +.8washers +3.2nuts,bench after bracket removal,25fan+1bracket+.8washer+3.2nut=30;5nominaltip; head3gives0.5to side
+G01,W01,2 M4x10 +.8washers +3.2nuts,floor outside; open right side,1floor+3foot+.8washer+3.2nut=8;2tip;2bolts share54longY-adjustment slot
+G02,G01,2 M4x12 +.8washers +3.2nuts,open right side,3ledge+3post+.8washer+3.2nut=10;2tip; verticalslots;2padtoGPU
+PSU support bosses,W01,4 M3x6 into blind-M3 Ø8x8 bosses,underside,1floor+5thread engaged;6deep bore leaves2topwall;supporttopZ34
+PSU,R01,4 #6-32UNC x1/4in,rear,1back;5.35nominalpenetration MUST be checked against chosenPSU; no PSU drilling/opening
+SSD,M01,4 M3x4,component side before motherboard install,1tray gives3nominaldrivepenetration; chosenSSD limit gate; no addednuts
+motherboard standoffs,M01,9 male-M3x5 studs +9M3nuts,cable side before board,1tray+2.4nut;1.6tip;9.525standoff height fixed
+motherboard,standoffs,9 M3x6,component side,1.6PCB +4.4female engagement; install only board-supported standoffs
+bottom140fan,W01,4 M4x35 +.8washers +3.2nuts,underside and open case,1floor+25fan+.8washer+3.2nut=30;5tip clear components
+rear140fan,R01,4 M4x30 +.8washers +3.2plainnuts,rear and open side,"1back+25fan+.8washer+3.2nut=30 exactly; flush fullnut engagement, check actual stack. Plain nut plus removable lowstrengththreadlock, NOT nyloc.35hits optionalbracket."
+bond lug,R01,"M4x10, toothed/appropriate conductive lug washer and nut",rear/open side,Ø4.5dedicated holeX130Z250. Actual ringlug thickness/screw length must be stack-checked. PSU safety earth remains untouched.
+I03,I02,4 M3x6 ISO7380-1 +4 .5washers +4 plainM3nuts,bench fronthex / openright nuts,1+1+.5+2.4=4.9mm;1.1tip;headmax1.65;0.85to wrapinner
+4 Newnex USB modules,I03,8 M3x4 ISO7380-1 +8 .5washers -> embeddedM3nuts,bench fronthex with cage removed,"1plate+.5washer;2.5nominal engagement; supplier alloweddepth UNKNOWN, bottoming/engagement receiving check;flangeY-193"
+PV0F24011 unchanged,I01,"supplier mounting nut/washer, no substitute thread callout",bench with cage removed,unchangedØ12.1cut and bezel/barrel datum; verify suppliednut/tool access and insulated terminals
+FRONTX P0902_036,I01,supplied ringnut only; thread unspecified,front before capturedfascia install,1mm fascia finished<1.2;nut1.8;3mm exposedthread;0.2nominaltip
+USB/audio cable restraint,I02 existingreturn tieholes,8 releasable2.5mm ties +6cushioned straps +sleeving,"open case, before closing sides","loop and mating-pair supports; Type-E cable supported near actualheader, no headerlevering; inspect fan exclusion"
+stereo rear cable,R01 existingØ12 exit,split grommet nominalID9,"removegrommet,pass plug,fit split aroundcable",maximumplughood<=11mm throughbareØ12; protect externalcable toselectedrearstereooutput
